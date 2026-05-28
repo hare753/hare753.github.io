@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Thu, 28 May 2026 15:48:47 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>软件</title><link>https://hare753.github.io/post/ruan-jian.html</link><description># 软件
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Thu, 28 May 2026 15:51:25 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>软件</title><link>https://hare753.github.io/post/ruan-jian.html</link><description># 软件
 
 ## 功能
 
@@ -32,37 +32,7 @@
 ## 人机交互
 
 - 图形化界面
-- 命令行。</description><guid isPermaLink="true">https://hare753.github.io/post/ruan-jian.html</guid><pubDate>Thu, 28 May 2026 15:48:19 +0000</pubDate></item><item><title>Windows常用快捷键</title><link>https://hare753.github.io/post/Windows-chang-yong-kuai-jie-jian.html</link><description># Windows常用快捷键
-
-## 文本快捷键
-
-- Ctrl+C：复制
-- Ctrl+V：粘贴
-- Ctrl+A：全选
-- Ctrl+X：剪切
-- Ctrl+Z：撤销
-- Ctrl+S：保存
-
-
-
-## 关闭、删除快捷键
-
-- Alt+F4：关闭窗口
-- Shift+Delete：永久删除
-
-
-
-## Win快捷键
-
-- Win+r：rush（运行）
-
-  - cmd：命令行
-
-  - explorer：资源管理器
-
-- Win+e：我的电脑
-- Win+Tab：切换应用程序
-- Ctrl+Shift+Esc：任务管理器。</description><guid isPermaLink="true">https://hare753.github.io/post/Windows-chang-yong-kuai-jie-jian.html</guid><pubDate>Thu, 28 May 2026 15:43:12 +0000</pubDate></item><item><title>硬件及冯诺依曼结构</title><link>https://hare753.github.io/post/ying-jian-ji-feng-nuo-yi-man-jie-gou.html</link><description># 硬件及冯诺依曼结构
+- 命令行。</description><guid isPermaLink="true">https://hare753.github.io/post/ruan-jian.html</guid><pubDate>Thu, 28 May 2026 15:48:19 +0000</pubDate></item><item><title>硬件及冯诺依曼结构</title><link>https://hare753.github.io/post/ying-jian-ji-feng-nuo-yi-man-jie-gou.html</link><description># 硬件及冯诺依曼结构
 
 ## 计算机硬件组成
 
