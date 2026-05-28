@@ -1,5 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Thu, 28 May 2026 15:26:06 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>Markdown学习</title><link>https://hare753.github.io/post/Markdown-xue-xi.html</link><description># Markdown学习
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Thu, 28 May 2026 15:42:25 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>硬件及冯诺依曼结构</title><link>https://hare753.github.io/post/ying-jian-ji-feng-nuo-yi-man-jie-gou.html</link><description># 硬件及冯诺依曼结构
+
+## 计算机硬件组成
+
+- CPU
+- 主板
+- 内存
+- 电源、主机箱
+- 硬盘
+- 显卡
+- 键盘、鼠标
+- 显示器
+- 等...
+
+
+
+## 装机
+
+- CPU
+- Memory（内存）
+- Motherboard（主板）
+- IO设备
+- 显卡
+
+
+
+## 冯·诺依曼体系
+
+### 冯·诺依曼体系结构
+
+&lt;img width='1089' height='621' alt='Image' src='https://github.com/user-attachments/assets/ccabb377-eeec-4eea-8a9c-c1ef59980407' /&gt;。</description><guid isPermaLink="true">https://hare753.github.io/post/ying-jian-ji-feng-nuo-yi-man-jie-gou.html</guid><pubDate>Thu, 28 May 2026 15:41:32 +0000</pubDate></item><item><title>Markdown学习</title><link>https://hare753.github.io/post/Markdown-xue-xi.html</link><description># Markdown学习
 
 ## 标题
 
