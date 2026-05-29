@@ -1,5 +1,47 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Thu, 28 May 2026 15:54:17 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>Windows常用快捷键</title><link>https://hare753.github.io/post/Windows-chang-yong-kuai-jie-jian.html</link><description># Windows常用快捷键
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Fri, 29 May 2026 10:31:48 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>基本的Dos命令</title><link>https://hare753.github.io/post/ji-ben-de-Dos-ming-ling.html</link><description># 基本的Dos命令
+
+## 打开CMD的方式
+
+1. 开始 + 系统 + 命令提示符
+2. `Win键+R`   输入`cmd`打开控制台（==推荐使用==）
+3. 在任意的文件夹下面，按住`shift键 + 鼠标右键`点击，在此处打开命令行窗口（==推荐==）
+4. 资源管理器的的地址栏前面加上 `cmd 路径`
+
+
+
+管理员方式运行：选择以管理员方式运行
+
+
+
+## 常用的Dos命令
+
+```bash
+#盘符切换
+cd /d 路径
+#查看当前目录下的所有文件 dir
+#切换目录	cd	(change directory)
+cd ..
+#清理屏幕	cls	(clear screen)
+#退出终端	exit
+#查看电脑的ip	ipconfig
+
+#打开应用
+	calc
+	mspaint
+	notepad
+	
+#ping 命令
+	ping www.baidu.com
+	
+#文件操作
+	md	目录名
+	rd	目录名
+	cd&gt;	文件名
+	del	文件名
+```
+
+。</description><guid isPermaLink="true">https://hare753.github.io/post/ji-ben-de-Dos-ming-ling.html</guid><pubDate>Fri, 29 May 2026 10:31:21 +0000</pubDate></item><item><title>Windows常用快捷键</title><link>https://hare753.github.io/post/Windows-chang-yong-kuai-jie-jian.html</link><description># Windows常用快捷键
 
 ## 文本快捷键
 
