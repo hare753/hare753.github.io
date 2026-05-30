@@ -1,5 +1,52 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Sat, 30 May 2026 02:22:54 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>Java基础知识</title><link>https://hare753.github.io/post/Java-ji-chu-zhi-shi.html</link><description># Java基础知识
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Sat, 30 May 2026 02:32:36 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>安装开发环境</title><link>https://hare753.github.io/post/an-zhuang-kai-fa-huan-jing.html</link><description># 安装开发环境
+
+## 卸载JDK
+
+1. 删除Java的安装目录
+2. 删除`JAVA_HOME`
+3. 删除`path`下关于Java的目录
+4. `java -version`
+
+
+
+## 安装JDK
+
+1. 浏览器搜索JDK8，找到下载地址
+2. 同意协议
+3. 下载电脑对应的版本
+4. 双击安装`JDK`
+5. **记住安装的路径**
+6. 配置环境变量
+   1. 我的电脑--&gt;右键--&gt;属性
+   2. 环境变量--&gt;`JAVA_HOME`
+   3. 配置`path`变量
+7. 测试`JDK`是否安装成功
+   1. 打开`cmd`
+   2. `java -version`
+
+
+
+## JDK8下的环境
+
+- bin（可执行文件）
+  - java.exe
+  - javac.exe
+- include（C语言的一些头文件）
+- jre（java运行环境）
+- lib（java的一些库文件）
+- src.zip（资源文件）
+
+
+
+## noptepad++
+
+
+
+## 小贴士
+
+- 放大镜：Win + '+'号
+  - 放大\缩小：Ctrl+Alt+鼠标滚轮。</description><guid isPermaLink="true">https://hare753.github.io/post/an-zhuang-kai-fa-huan-jing.html</guid><pubDate>Sat, 30 May 2026 02:32:12 +0000</pubDate></item><item><title>Java基础知识</title><link>https://hare753.github.io/post/Java-ji-chu-zhi-shi.html</link><description># Java基础知识
 
 ## Java特性和优势
 
