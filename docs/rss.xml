@@ -1,5 +1,34 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Sat, 30 May 2026 02:32:36 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>安装开发环境</title><link>https://hare753.github.io/post/an-zhuang-kai-fa-huan-jing.html</link><description># 安装开发环境
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Sun, 31 May 2026 02:45:34 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>HelloWorld</title><link>https://hare753.github.io/post/HelloWorld.html</link><description># HelloWorld
+
+1. 随便新建一个文件夹，存放代码
+2. 新建一个java文件
+   - 文件后缀名为.java
+   - `Hello.java`
+   - 【注意点】系统可能没有显示文件后缀名，我们需要手动打开
+3. 编写代码
+
+```java
+public class Hello{
+	public static void main(String[] args){
+		System.out.println('Hello,World!');
+	}
+}
+```
+
+4. 编译` javac java文件`，会生成一个class文件
+5. 运行class文件，`java class文件`
+
+&lt;img width='461' height='107' alt='Image' src='https://github.com/user-attachments/assets/e9b229a7-21c9-4f16-ad7c-08b0751f9a6f' /&gt;
+
+
+
+# 可能会遇到的情况
+
+1. 每个单词的大小不能出现问题，**java是大小写敏感的**
+2. 尽量使用英文
+3. `文件名`和 `类名`必须保持一致，并且首字母大写
+4. 符号使用了中文。</description><guid isPermaLink="true">https://hare753.github.io/post/HelloWorld.html</guid><pubDate>Sun, 31 May 2026 02:45:08 +0000</pubDate></item><item><title>安装开发环境</title><link>https://hare753.github.io/post/an-zhuang-kai-fa-huan-jing.html</link><description># 安装开发环境
 
 ## 卸载JDK
 
