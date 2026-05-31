@@ -1,5 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Sun, 31 May 2026 02:59:20 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>Java程序运行进制</title><link>https://hare753.github.io/post/Java-cheng-xu-yun-xing-jin-zhi.html</link><description># Java程序运行机制
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Sun, 31 May 2026 03:23:36 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>注释</title><link>https://hare753.github.io/post/zhu-shi.html</link><description># 注释
+
+- 注释并不会被执行，是给我们写代码的人看的
+- ==***书写注释***==是一个非常好的习惯 ***==BAT==***
+- 平时写代码一定要==***注意规范***==
+
+
+
+## Java中的注释有三种：
+
+- 单行注释
+- 多行注释
+- 文档注释
+
+```java
+//单行注释	//
+//多行注释	/*	注释	*/
+//文档注释	/**	*/
+```
+
+
+
+&lt;img width='771' height='810' alt='Image' src='https://github.com/user-attachments/assets/0fad9af2-ea03-4de1-820a-71d29f526de8' /&gt;
+
+。</description><guid isPermaLink="true">https://hare753.github.io/post/zhu-shi.html</guid><pubDate>Sun, 31 May 2026 03:23:05 +0000</pubDate></item><item><title>Java程序运行进制</title><link>https://hare753.github.io/post/Java-cheng-xu-yun-xing-jin-zhi.html</link><description># Java程序运行机制
 
 - 编译型
 - 解释型
