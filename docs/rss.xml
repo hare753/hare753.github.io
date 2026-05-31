@@ -1,5 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Sun, 31 May 2026 02:45:34 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>HelloWorld</title><link>https://hare753.github.io/post/HelloWorld.html</link><description># HelloWorld
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Sun, 31 May 2026 02:59:20 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>Java程序运行进制</title><link>https://hare753.github.io/post/Java-cheng-xu-yun-xing-jin-zhi.html</link><description># Java程序运行机制
+
+- 编译型
+- 解释型
+
+
+
+## 程序运行机制
+
+
+
+&lt;img width='1033' height='444' alt='Image' src='https://github.com/user-attachments/assets/54448d60-03e4-4cf2-8a8a-95696c7842db' /&gt;。</description><guid isPermaLink="true">https://hare753.github.io/post/Java-cheng-xu-yun-xing-jin-zhi.html</guid><pubDate>Sun, 31 May 2026 02:58:56 +0000</pubDate></item><item><title>HelloWorld</title><link>https://hare753.github.io/post/HelloWorld.html</link><description># HelloWorld
 
 1. 随便新建一个文件夹，存放代码
 2. 新建一个java文件
