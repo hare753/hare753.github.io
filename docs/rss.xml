@@ -1,5 +1,123 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Sun, 31 May 2026 03:35:38 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>标识符</title><link>https://hare753.github.io/post/biao-shi-fu.html</link><description># 标识符
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Mon, 01 Jun 2026 03:35:33 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>数据类型</title><link>https://hare753.github.io/post/shu-ju-lei-xing.html</link><description># 数据类型
+
+- 强类型语言
+  - 要求变量的使用要严格符合规定，所有变量都必须***先定义后才能使用***
+- 弱类型语言
+
+
+
+## 两大类
+
+- 基本类型（primitive type）
+  - ***八大***
+- 引用类型（reference type）
+
+&lt;img width='1596' height='754' alt='Image' src='https://github.com/user-attachments/assets/b26791f9-53d7-44fd-a36b-92a7557d7239' /&gt;
+
+
+
+
+
+&lt;img width='717' height='898' alt='Image' src='https://github.com/user-attachments/assets/0b74e0cf-883e-4ae8-8b09-81cd0a7c30f2' /&gt;
+
+
+
+## 字节
+
+- `位（bit）`：是计算机 内部数据 储存的***最小单位***，11001100是一个八位二进制数
+- `字节（byte）`：是计算机中 数据处理 的***基本单位***，习惯上用大写B来表示
+- 1B（byte，字节）= 8bit（位）
+- 字符：是指计算机中使用的字母、数字、字和符号
+
+
+
+| 电脑的区别     | 32位 | 64位  |
+| -------------- | ---- | ----- |
+| 支持的最大内存 | 4GB  | 128GB |
+
+
+
+| 对应关系  |
+| --------- |
+| 1B=8b     |
+| 1024B=1KB |
+| 1024KB=1M |
+| 1024M=1G  |
+| 1024G=1TB |
+
+
+
+## 扩展
+
+### 整数拓展
+
+| 进制     | 写法                     |
+| -------- | ------------------------ |
+| 二进制   | `0b`                     |
+| 十进制   | `10`                     |
+| 八进制   | `010`                    |
+| 十六进制 | `0x10`【0-9、A-F（16）】 |
+
+
+
+&lt;img width='1006' height='529' alt='Image' src='https://github.com/user-attachments/assets/855d7096-dde3-48a5-93a2-6ef424fccd0f' /&gt;
+
+
+
+
+
+### 浮点数拓展
+
+- `BigDecimal`：数学工具类
+- ==***最好完全避免使用浮点数进行比较***==
+
+&lt;img width='1113' height='838' alt='Image' src='https://github.com/user-attachments/assets/42272b49-5561-466d-9c28-53069024b91b' /&gt;
+
+
+
+
+### 字符拓展
+
+- `Unicode`表
+  - ==***所有的字符本质还是数字***==
+
+| 字符 | 数字 |
+| ---- | ---- |
+| A    | 65   |
+| a    | 97   |
+
+
+
+&lt;img width='1209' height='870' alt='Image' src='https://github.com/user-attachments/assets/cae69319-32d3-40e4-995f-6616ab12b96e' /&gt;
+
+
+
+
+
+#### 转义字符
+
+| 转义字符 | 含义   |
+| -------- | ------ |
+| `\t`     | 制表符 |
+| `\n`     | 换行   |
+
+
+
+&lt;img width='962' height='682' alt='Image' src='https://github.com/user-attachments/assets/8cf62c5e-e16e-4e9f-bd23-48fdf737cc63' /&gt;
+
+
+
+
+
+### 布尔值拓展
+
+&lt;img width='588' height='290' alt='Image' src='https://github.com/user-attachments/assets/232ef95e-d8a9-41bd-9f91-9d4e121a4e71' /&gt;
+
+
+
+
+。</description><guid isPermaLink="true">https://hare753.github.io/post/shu-ju-lei-xing.html</guid><pubDate>Mon, 01 Jun 2026 03:35:04 +0000</pubDate></item><item><title>标识符</title><link>https://hare753.github.io/post/biao-shi-fu.html</link><description># 标识符
 
 - **关键字**
 
