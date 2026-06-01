@@ -1,5 +1,49 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Mon, 01 Jun 2026 03:35:33 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>数据类型</title><link>https://hare753.github.io/post/shu-ju-lei-xing.html</link><description># 数据类型
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Mon, 01 Jun 2026 03:46:47 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>类型转换</title><link>https://hare753.github.io/post/lei-xing-zhuan-huan.html</link><description># 类型转换
+
+- 运算中，不同类型的数据先转化为同一类型，然后进行运算
+
+&lt;img width='672' height='152' alt='Image' src='https://github.com/user-attachments/assets/b16d359f-47a3-4e95-b6cf-0f369ec48bda' /&gt;
+
+
+
+
+
+| 类型     | 方式           | 方向   |
+| -------- | -------------- | ------ |
+| 强制转换 | （类型）变量名 | 高--&gt;低 |
+| 自动转换 | 无             | 低--&gt;高 |
+
+
+
+&lt;img width='634' height='417' alt='Image' src='https://github.com/user-attachments/assets/276ee73b-0193-4062-bc51-239c692f22d3' /&gt;
+
+
+
+
+
+## 注意点
+
+1. 不能对布尔值进行转换
+2. 不能把对象类型转换为不相干的类型
+3. 在把高容量转换到低容量的时候，强制转换
+4. 转换的时候可能存在==***内存溢出***==，或者==***精度问题***==!
+
+
+
+&lt;img width='699' height='736' alt='Image' src='https://github.com/user-attachments/assets/7e84c8d3-fcba-4f98-a79f-ec01628d5078' /&gt;
+
+
+
+
+
+## `JDK7`新特性
+
+- ==***数字之间可以用下划线分割***==
+
+&lt;img width='867' height='591' alt='Image' src='https://github.com/user-attachments/assets/89569eb4-4dbc-4e79-ab41-28a798f46c9c' /&gt;
+
+。</description><guid isPermaLink="true">https://hare753.github.io/post/lei-xing-zhuan-huan.html</guid><pubDate>Mon, 01 Jun 2026 03:46:20 +0000</pubDate></item><item><title>数据类型</title><link>https://hare753.github.io/post/shu-ju-lei-xing.html</link><description># 数据类型
 
 - 强类型语言
   - 要求变量的使用要严格符合规定，所有变量都必须***先定义后才能使用***
