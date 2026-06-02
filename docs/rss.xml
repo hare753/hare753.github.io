@@ -1,5 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Mon, 01 Jun 2026 03:46:47 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>类型转换</title><link>https://hare753.github.io/post/lei-xing-zhuan-huan.html</link><description># 类型转换
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Tue, 02 Jun 2026 06:25:31 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>变量、常量、作用域</title><link>https://hare753.github.io/post/bian-liang-%E3%80%81-chang-liang-%E3%80%81-zuo-yong-yu.html</link><description># 变量、常量、作用域
+
+## 变量
+
+- 变量是什么：可以变化的量！
+- `Java`是一种强类型语言，每个变量都必须声明其类型
+- `Java`变量是程序中最基本的存储单元，要素包括：
+  - 变量名
+  - 变量类型
+  - ***作用域***
+
+```java
+type varName = [=value]	[{,varName[=value]}];
+//数据类型	变量名 = 值; 
+//可以使用逗号隔开来声明多个同类型变量。</description><guid isPermaLink="true">https://hare753.github.io/post/bian-liang-%E3%80%81-chang-liang-%E3%80%81-zuo-yong-yu.html</guid><pubDate>Tue, 02 Jun 2026 06:25:05 +0000</pubDate></item><item><title>类型转换</title><link>https://hare753.github.io/post/lei-xing-zhuan-huan.html</link><description># 类型转换
 
 - 运算中，不同类型的数据先转化为同一类型，然后进行运算
 
