@@ -1,5 +1,116 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Tue, 02 Jun 2026 06:25:31 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>变量、常量、作用域</title><link>https://hare753.github.io/post/bian-liang-%E3%80%81-chang-liang-%E3%80%81-zuo-yong-yu.html</link><description># 变量、常量、作用域
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Wed, 03 Jun 2026 05:55:00 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>运算符</title><link>https://hare753.github.io/post/yun-suan-fu.html</link><description># 运算符
+
+- `Java`语言支持如下运算符：
+  - 基础：
+    - 算术运算符：+，-，*，/，%，++，--
+    - 赋值运算符：=
+    - 关系运算符：&gt;，&lt;，&gt;=，&lt;=，==，!= instanceof
+    - 逻辑运算符：&amp;&amp;，||，!
+
+  - **了解**：
+    - 位运算符：&amp;，|，^，~，&gt;&gt;，&lt;&lt;，&gt;&gt;&gt;
+
+  - 必须掌握：
+    - 条件运算符：？：
+    - 扩展赋值运算符：+=，-=，*=，/=
+
+
+
+
+## 二元运算符
+
+### 算术运算符（+，-，*，/）
+
+- `Ctrl + D`：复制当前到下一行
+
+&lt;img width='641' height='659' alt='Image' src='https://github.com/user-attachments/assets/4572a57c-1486-4311-9366-56baff1cbdcd' /&gt;
+
+
+
+- 类型转换
+
+&lt;img width='634' height='581' alt='Image' src='https://github.com/user-attachments/assets/9976359d-c62e-405c-a3d9-f6e31a42f277' /&gt;
+
+
+
+### 关系运算符
+
+- 关系运算符返回的结果：
+  - 正确
+  - 错误
+  - 布尔值
+
+&lt;img width='831' height='784' alt='Image' src='https://github.com/user-attachments/assets/ed43d070-8256-4ffc-8666-5e0e19248d70' /&gt;
+
+
+
+### 位运算符（***了解！！！***）
+
+- `&lt;&lt;`（左移）：*2
+- `&gt;&gt;`（右移）：/2
+
+&lt;img width='538' height='926' alt='Image' src='https://github.com/user-attachments/assets/a0d29416-1838-4f9e-9ca7-5baf2dd500be' /&gt;
+
+
+
+### 扩展赋值运算符（+=，-=）
+
+- 字符串连接符（`'+'`）
+  - 看第一个拼接的==***数据类型***==
+
+&lt;img width='640' height='655' alt='Image' src='https://github.com/user-attachments/assets/fa9b856a-7ae0-44ee-9ef0-82994e28c67b' /&gt;
+
+
+
+## 一元运算符
+
+### 算术运算符（++，--）
+
+- 幂运算
+  - 用`Math.pow()`函数
+
+&lt;img width='898' height='825' alt='Image' src='https://github.com/user-attachments/assets/ac068cb3-4000-4525-bb5c-56e214b39173' /&gt;
+
+
+
+### 逻辑运算符
+
+- 短路运算
+  - 第一个条件为`false`，后面的都不用看了，直接判断为`false`
+  - ***反之（`true`）则继续判断（按顺序判断）***
+
+| 符号 | 名称          | 运算                              |
+| ---- | ------------- | --------------------------------- |
+| `&amp;&amp;` | 逻辑与（and） | `true&amp;&amp;true--&gt;true`               |
+| \|\| | 逻辑或（or）  | true\|\|false--&gt;true 			  |
+| `!`  | 非（取反）    | `!true--&gt;false and !false--&gt;true` |
+
+&lt;img width='1101' height='753' alt='Image' src='https://github.com/user-attachments/assets/debbe28e-e8fa-4c0d-9836-c96012e7c82a' /&gt;
+
+
+
+## 三元运算符
+
+### 条件运算符
+
+```java
+// x ? y : z
+// 如果x==true，则结果为y，否则结果为z
+```
+
+
+
+&lt;img width='766' height='517' alt='Image' src='https://github.com/user-attachments/assets/c848b691-6c57-49c8-a5aa-2149f5b8a1bc' /&gt;
+
+
+
+
+
+
+
+
+。</description><guid isPermaLink="true">https://hare753.github.io/post/yun-suan-fu.html</guid><pubDate>Wed, 03 Jun 2026 05:54:29 +0000</pubDate></item><item><title>变量、常量、作用域</title><link>https://hare753.github.io/post/bian-liang-%E3%80%81-chang-liang-%E3%80%81-zuo-yong-yu.html</link><description># 变量、常量、作用域
 
 ## 变量
 
