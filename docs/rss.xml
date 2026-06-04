@@ -1,5 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Wed, 03 Jun 2026 05:55:00 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>运算符</title><link>https://hare753.github.io/post/yun-suan-fu.html</link><description># 运算符
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Thu, 04 Jun 2026 05:45:39 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>包机制</title><link>https://hare753.github.io/post/bao-ji-zhi.html</link><description># 包机制
+
+- 包机制用于**区别类名的命名空间**
+- 语法格式为：
+
+```java
+package pkg1[.pkg2[.pkg3...]];
+```
+
+- ==***一般用公司域名倒置作为包名***==
+
+- 为了能够使用某一个包的成员
+  - ***使用`'import'`语句导入该包***
+
+
+```java
+import pkg1[.pkg2...].(classname|*);
+```
+
+
+
+&lt;img width='1028' height='477' alt='Image' src='https://github.com/user-attachments/assets/79f3b66b-81b1-4051-8da2-982c4254c3aa' /&gt;
+
+
+
+。</description><guid isPermaLink="true">https://hare753.github.io/post/bao-ji-zhi.html</guid><pubDate>Thu, 04 Jun 2026 05:45:13 +0000</pubDate></item><item><title>运算符</title><link>https://hare753.github.io/post/yun-suan-fu.html</link><description># 运算符
 
 - `Java`语言支持如下运算符：
   - 基础：
