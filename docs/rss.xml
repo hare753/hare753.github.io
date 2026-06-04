@@ -1,5 +1,49 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Thu, 04 Jun 2026 05:45:39 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>包机制</title><link>https://hare753.github.io/post/bao-ji-zhi.html</link><description># 包机制
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Thu, 04 Jun 2026 05:59:19 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>JavaDoc</title><link>https://hare753.github.io/post/JavaDoc.html</link><description># JavaDoc
+
+- ==***`javadoc`命令***==：
+  - 用来生成自己***API文档***的
+
+- ***API文档***：
+  - 看***index.html***
+
+- 命令行：
+
+```bash
+#格式
+#javadoc 参数 Java文件
+javadoc -encoding UTF-8 -charset UTF-8 xxx.java
+```
+
+
+
+## 强调！！！
+
+&lt;img width='567' height='187' alt='Image' src='https://github.com/user-attachments/assets/3d44562b-e7bb-4a86-80a4-68a4218e7a14' /&gt;
+
+
+
+## 参数信息
+
+- 文档注释：
+
+```java
+/**
+ * @author 作者名
+ * @version 版本号
+ * @since 指明需要最早使用的jdk版本
+ * @param 参数名
+ * @return 返回值情况
+ * @throws 异常抛出情况
+ */
+```
+
+
+
+&lt;img width='725' height='830' alt='Image' src='https://github.com/user-attachments/assets/0bc9dfae-0abc-498f-9f77-02e1b5c2169b' /&gt;
+
+
+。</description><guid isPermaLink="true">https://hare753.github.io/post/JavaDoc.html</guid><pubDate>Thu, 04 Jun 2026 05:58:49 +0000</pubDate></item><item><title>包机制</title><link>https://hare753.github.io/post/bao-ji-zhi.html</link><description># 包机制
 
 - 包机制用于**区别类名的命名空间**
 - 语法格式为：
