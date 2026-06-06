@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html data-color-mode="light" data-dark-theme="dark" data-light-theme="light" lang="zh-CN">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
+    
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/154416633?v=4&size=64"><script>
+        let theme = localStorage.getItem("meek_theme") || "light";
+        document.documentElement.setAttribute("data-color-mode", theme);
+    </script>
+<meta name="description" content="# 选择结构
+
+- `if`
+  - 单选择结构
+  - 双选择结构
+  - 多选择结构
+  - 嵌套结构
+
+- `switch`
+  - 多选择结构
+
+
+
+## `if`
+
+### 单选择结构
+
+- **先判断为`true`，后执行**
+  - 这样一个过程在程序中用==***`if`语句***==来表示
+
+- 语法：
+
+```java
+if(布尔表达式){
+    //如果布尔表达式为true将执行的语句
+}
+```
+
+<img width='300' height='475' alt='Image' src='https://github.com/user-attachments/assets/a061d607-fdaf-43ca-a91a-d21e58ea7036' />
+
+
+
+
+
+
+
+<img width='668' height='764' alt='Image' src='https://github.com/user-attachments/assets/a4fb72a0-ba9b-4793-8320-608867513f12' />
+
+
+
+### 双选择结构
+
+- **先判断`true`还是`false`，后执行对应的**
+  - 所以就有了==***`if-else`结构***==
+
+- 语法：
+
+```java
+if(布尔表达式){
+    //如果布尔表达式的值为true
+}else{
+    //如果布尔表达式的值为false
+}
+```
+
+<img width='428' height='489' alt='Image' src='https://github.com/user-attachments/assets/e423ddd3-631a-4637-8370-954ce49c77b1' />
+
+
+
+<img width='665' height='797' alt='Image' src='https://github.com/user-attachments/assets/08bf17bc-e27b-4c47-9717-a106f63016fb' />
+
+
+
+### 多选择结构
+
+- **区间多级判断**
+  - 需要一个==***`if-else if-else`结构***==
+
+- 语法：
+
+```java
+if(布尔表达式1){
+    //如果布尔表达式1的值为true执行代码
+}else if(布尔表达式2){
+    //如果布尔表达式2的值为true执行代码
+}else if(布尔表达式3){
+    //如果布尔表达式3的值为true执行代码
+}else {
+    //如果以上布尔表达式都不为true执行代码
+}
+```
+
+<img width='473' height='374' alt='Image' src='https://github.com/user-attachments/assets/50c85867-bd6e-475a-a166-50a8731ae43d' />
+
+
+
+
+
+#### ==小结==
+
+1. `if`语句至多有 1 个 `else` 语句，`else `语句在所有的 `else if`语句之后
+2. `if`语句可以有若干个 `else if`语句，它们必须在 `else` 语句之前
+3. 一旦其中一个`else if`语句检测为 true，其他的`else if`以及`else`语句都将跳过执行
+
+<img width='1020' height='412' alt='Image' src='https://github.com/user-attachments/assets/fbce13b0-633a-48d2-bd78-e67e7675ca28' />
+
+<img width='616' height='836' alt='Image' src='https://github.com/user-attachments/assets/e3037cf8-09dd-4ad4-882b-5dcc53b87500' />
+
+
+
+### 嵌套结构
+
+- 在另一个`if`或者`else if`语句中使用`if`或者`else if`语句
+
+- 语法：
+
+```java
+if(布尔表达式1){
+    //如果布尔表达式1的值为true执行代码
+    if(布尔表达式2){
+        //如果布尔表达式2的值为true执行代码
+    }
+}
+```
+
+
+
+## `switch`
+
+### 多选择结构
+
+- 判断一个变量与一系列值中某个值是否相等，每个值称为一个分支
+  - 这就是==***`switch case`语句***==
+
+- 语法：
+
+```java
+switch(expression){
+    case value:
+        //语句
+        break;//可选
+    case value:
+        //语句
+        break;//可选
+    //你可以有任意数量的case语句
+    default: //可选
+        //语句
+}
+```
+
+
+
+#### `case`穿透
+
+- `switch`匹配一个具体的值
+  - ==***之后一定要加`break`***==
+  - **否则将继续执行后续的代码块（不进行任何判断）**
+
+<img width='628' height='928' alt='Image' src='https://github.com/user-attachments/assets/efe5acbe-ae90-4394-9eaa-9d6d728344f4' />
+
+
+
+#### `Jdk7`新特性
+
+- `switch`语句中的变量类型可以是：
+  - `byte、short、int或者char`
+  - 从==**`jdk7`（`Java SE 7`）**==开始
+    - ==***`switch`支持字符串`String`类型了***==
+    - 同时`case`标签必须为字符串常量或字面量
+
+<img width='762' height='831' alt='Image' src='https://github.com/user-attachments/assets/8f57c17f-1537-494b-993c-f649e7b727b2' />
+
+。">
+<meta property="og:title" content="选择结构">
+<meta property="og:description" content="# 选择结构
+
+- `if`
+  - 单选择结构
+  - 双选择结构
+  - 多选择结构
+  - 嵌套结构
+
+- `switch`
+  - 多选择结构
+
+
+
+## `if`
+
+### 单选择结构
+
+- **先判断为`true`，后执行**
+  - 这样一个过程在程序中用==***`if`语句***==来表示
+
+- 语法：
+
+```java
+if(布尔表达式){
+    //如果布尔表达式为true将执行的语句
+}
+```
+
+<img width='300' height='475' alt='Image' src='https://github.com/user-attachments/assets/a061d607-fdaf-43ca-a91a-d21e58ea7036' />
+
+
+
+
+
+
+
+<img width='668' height='764' alt='Image' src='https://github.com/user-attachments/assets/a4fb72a0-ba9b-4793-8320-608867513f12' />
+
+
+
+### 双选择结构
+
+- **先判断`true`还是`false`，后执行对应的**
+  - 所以就有了==***`if-else`结构***==
+
+- 语法：
+
+```java
+if(布尔表达式){
+    //如果布尔表达式的值为true
+}else{
+    //如果布尔表达式的值为false
+}
+```
+
+<img width='428' height='489' alt='Image' src='https://github.com/user-attachments/assets/e423ddd3-631a-4637-8370-954ce49c77b1' />
+
+
+
+<img width='665' height='797' alt='Image' src='https://github.com/user-attachments/assets/08bf17bc-e27b-4c47-9717-a106f63016fb' />
+
+
+
+### 多选择结构
+
+- **区间多级判断**
+  - 需要一个==***`if-else if-else`结构***==
+
+- 语法：
+
+```java
+if(布尔表达式1){
+    //如果布尔表达式1的值为true执行代码
+}else if(布尔表达式2){
+    //如果布尔表达式2的值为true执行代码
+}else if(布尔表达式3){
+    //如果布尔表达式3的值为true执行代码
+}else {
+    //如果以上布尔表达式都不为true执行代码
+}
+```
+
+<img width='473' height='374' alt='Image' src='https://github.com/user-attachments/assets/50c85867-bd6e-475a-a166-50a8731ae43d' />
+
+
+
+
+
+#### ==小结==
+
+1. `if`语句至多有 1 个 `else` 语句，`else `语句在所有的 `else if`语句之后
+2. `if`语句可以有若干个 `else if`语句，它们必须在 `else` 语句之前
+3. 一旦其中一个`else if`语句检测为 true，其他的`else if`以及`else`语句都将跳过执行
+
+<img width='1020' height='412' alt='Image' src='https://github.com/user-attachments/assets/fbce13b0-633a-48d2-bd78-e67e7675ca28' />
+
+<img width='616' height='836' alt='Image' src='https://github.com/user-attachments/assets/e3037cf8-09dd-4ad4-882b-5dcc53b87500' />
+
+
+
+### 嵌套结构
+
+- 在另一个`if`或者`else if`语句中使用`if`或者`else if`语句
+
+- 语法：
+
+```java
+if(布尔表达式1){
+    //如果布尔表达式1的值为true执行代码
+    if(布尔表达式2){
+        //如果布尔表达式2的值为true执行代码
+    }
+}
+```
+
+
+
+## `switch`
+
+### 多选择结构
+
+- 判断一个变量与一系列值中某个值是否相等，每个值称为一个分支
+  - 这就是==***`switch case`语句***==
+
+- 语法：
+
+```java
+switch(expression){
+    case value:
+        //语句
+        break;//可选
+    case value:
+        //语句
+        break;//可选
+    //你可以有任意数量的case语句
+    default: //可选
+        //语句
+}
+```
+
+
+
+#### `case`穿透
+
+- `switch`匹配一个具体的值
+  - ==***之后一定要加`break`***==
+  - **否则将继续执行后续的代码块（不进行任何判断）**
+
+<img width='628' height='928' alt='Image' src='https://github.com/user-attachments/assets/efe5acbe-ae90-4394-9eaa-9d6d728344f4' />
+
+
+
+#### `Jdk7`新特性
+
+- `switch`语句中的变量类型可以是：
+  - `byte、short、int或者char`
+  - 从==**`jdk7`（`Java SE 7`）**==开始
+    - ==***`switch`支持字符串`String`类型了***==
+    - 同时`case`标签必须为字符串常量或字面量
+
+<img width='762' height='831' alt='Image' src='https://github.com/user-attachments/assets/8f57c17f-1537-494b-993c-f649e7b727b2' />
+
+。">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://hare753.github.io/post/xuan-ze-jie-gou.html">
+<meta property="og:image" content="https://avatars.githubusercontent.com/u/154416633?v=4&size=64">
+<title>选择结构</title>
+<link href="//unpkg.com/@wooorm/starry-night@2.1.1/style/both.css" rel="stylesheet" />
+
+
+</head>
+<style>
+body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;padding: 45px;font-size: 16px;font-family: sans-serif;line-height: 1.25;}
+#header{display:flex;padding-bottom:8px;border-bottom: 1px solid var(--borderColor-muted, var(--color-border-muted));margin-bottom: 16px;}
+#footer {margin-top:64px; text-align: center;font-size: small;}
+
+</style>
+
+<style>
+.postTitle{margin: auto 0;font-size:40px;font-weight:bold;}
+.title-right{display:flex;margin:auto 0 0 auto;}
+.title-right .circle{padding: 14px 16px;margin-right:8px;}
+#postBody{border-bottom: 1px solid var(--color-border-default);padding-bottom:36px;}
+#postBody hr{height:2px;}
+#cmButton{height:48px;margin-top:48px;}
+#comments{margin-top:64px;}
+.g-emoji{font-size:24px;}
+@media (max-width: 600px) {
+    body {padding: 8px;}
+    .postTitle{font-size:24px;}
+}
+.copy-feedback {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    color: var(--color-fg-on-emphasis);
+    background-color: var(--color-fg-muted);
+    border-radius: 3px;
+    padding: 5px 8px;
+    font-size: 12px;
+}
+</style>
+
+
+
+
+<body>
+    <div id="header">
+<h1 class="postTitle">选择结构</h1>
+<div class="title-right">
+    <a href="https://hare753.github.io" id="buttonHome" class="btn btn-invisible circle" title="首页">
+        <svg class="octicon" width="16" height="16">
+            <path id="pathHome" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+    
+    <a href="https://github.com/hare753/hare753.github.io/issues/24" target="_blank" class="btn btn-invisible circle" title="Issue">
+        <svg class="octicon" width="16" height="16">
+            <path id="pathIssue" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+    
+
+    <a class="btn btn-invisible circle" onclick="modeSwitch();" title="切换主题">
+        <svg class="octicon" width="16" height="16" >
+            <path id="themeSwitch" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+
+</div>
+</div>
+    <div id="content">
+<div class="markdown-body" id="postBody"><h1>选择结构</h1>
+<ul>
+<li>
+<p><code class="notranslate">if</code></p>
+<ul>
+<li>单选择结构</li>
+<li>双选择结构</li>
+<li>多选择结构</li>
+<li>嵌套结构</li>
+</ul>
+</li>
+<li>
+<p><code class="notranslate">switch</code></p>
+<ul>
+<li>多选择结构</li>
+</ul>
+</li>
+</ul>
+<h2><code class="notranslate">if</code></h2>
+<h3>单选择结构</h3>
+<ul>
+<li>
+<p><strong>先判断为<code class="notranslate">true</code>，后执行</strong></p>
+<ul>
+<li>这样一个过程在程序中用==<em><strong><code class="notranslate">if</code>语句</strong></em>==来表示</li>
+</ul>
+</li>
+<li>
+<p>语法：</p>
+</li>
+</ul>
+<div class="highlight highlight-source-java"><pre class="notranslate"><span class="pl-k">if</span>(<span class="pl-s1">布尔表达式</span>){
+    <span class="pl-c">//如果布尔表达式为true将执行的语句</span>
+}</pre></div>
+<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/a061d607-fdaf-43ca-a91a-d21e58ea7036"><img width="300" height="475" alt="Image" src="https://github.com/user-attachments/assets/a061d607-fdaf-43ca-a91a-d21e58ea7036" style="max-width: 100%; height: auto; max-height: 475px;; aspect-ratio: 300 / 475; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a></p>
+<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/a4fb72a0-ba9b-4793-8320-608867513f12"><img width="668" height="764" alt="Image" src="https://github.com/user-attachments/assets/a4fb72a0-ba9b-4793-8320-608867513f12" style="max-width: 100%; height: auto; max-height: 764px;; aspect-ratio: 668 / 764; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a></p>
+<h3>双选择结构</h3>
+<ul>
+<li>
+<p><strong>先判断<code class="notranslate">true</code>还是<code class="notranslate">false</code>，后执行对应的</strong></p>
+<ul>
+<li>所以就有了==<em><strong><code class="notranslate">if-else</code>结构</strong></em>==</li>
+</ul>
+</li>
+<li>
+<p>语法：</p>
+</li>
+</ul>
+<div class="highlight highlight-source-java"><pre class="notranslate"><span class="pl-k">if</span>(<span class="pl-s1">布尔表达式</span>){
+    <span class="pl-c">//如果布尔表达式的值为true</span>
+}<span class="pl-k">else</span>{
+    <span class="pl-c">//如果布尔表达式的值为false</span>
+}</pre></div>
+<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/e423ddd3-631a-4637-8370-954ce49c77b1"><img width="428" height="489" alt="Image" src="https://github.com/user-attachments/assets/e423ddd3-631a-4637-8370-954ce49c77b1" style="max-width: 100%; height: auto; max-height: 489px;; aspect-ratio: 428 / 489; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a></p>
+<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/08bf17bc-e27b-4c47-9717-a106f63016fb"><img width="665" height="797" alt="Image" src="https://github.com/user-attachments/assets/08bf17bc-e27b-4c47-9717-a106f63016fb" style="max-width: 100%; height: auto; max-height: 797px;; aspect-ratio: 665 / 797; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a></p>
+<h3>多选择结构</h3>
+<ul>
+<li>
+<p><strong>区间多级判断</strong></p>
+<ul>
+<li>需要一个==<em><strong><code class="notranslate">if-else if-else</code>结构</strong></em>==</li>
+</ul>
+</li>
+<li>
+<p>语法：</p>
+</li>
+</ul>
+<div class="highlight highlight-source-java"><pre class="notranslate"><span class="pl-k">if</span>(<span class="pl-s1">布尔表达式1</span>){
+    <span class="pl-c">//如果布尔表达式1的值为true执行代码</span>
+}<span class="pl-k">else</span> <span class="pl-k">if</span>(<span class="pl-s1">布尔表达式2</span>){
+    <span class="pl-c">//如果布尔表达式2的值为true执行代码</span>
+}<span class="pl-k">else</span> <span class="pl-k">if</span>(<span class="pl-s1">布尔表达式3</span>){
+    <span class="pl-c">//如果布尔表达式3的值为true执行代码</span>
+}<span class="pl-k">else</span> {
+    <span class="pl-c">//如果以上布尔表达式都不为true执行代码</span>
+}</pre></div>
+<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/50c85867-bd6e-475a-a166-50a8731ae43d"><img width="473" height="374" alt="Image" src="https://github.com/user-attachments/assets/50c85867-bd6e-475a-a166-50a8731ae43d" style="max-width: 100%; height: auto; max-height: 374px;; aspect-ratio: 473 / 374; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a></p>
+<h4>==小结==</h4>
+<ol>
+<li><code class="notranslate">if</code>语句至多有 1 个 <code class="notranslate">else</code> 语句，<code class="notranslate">else </code>语句在所有的 <code class="notranslate">else if</code>语句之后</li>
+<li><code class="notranslate">if</code>语句可以有若干个 <code class="notranslate">else if</code>语句，它们必须在 <code class="notranslate">else</code> 语句之前</li>
+<li>一旦其中一个<code class="notranslate">else if</code>语句检测为 true，其他的<code class="notranslate">else if</code>以及<code class="notranslate">else</code>语句都将跳过执行</li>
+</ol>
+<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/fbce13b0-633a-48d2-bd78-e67e7675ca28"><img width="1020" height="412" alt="Image" src="https://github.com/user-attachments/assets/fbce13b0-633a-48d2-bd78-e67e7675ca28" style="max-width: 100%; height: auto; max-height: 412px;; aspect-ratio: 1020 / 412; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a></p>
+<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/e3037cf8-09dd-4ad4-882b-5dcc53b87500"><img width="616" height="836" alt="Image" src="https://github.com/user-attachments/assets/e3037cf8-09dd-4ad4-882b-5dcc53b87500" style="max-width: 100%; height: auto; max-height: 836px;; aspect-ratio: 616 / 836; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a></p>
+<h3>嵌套结构</h3>
+<ul>
+<li>
+<p>在另一个<code class="notranslate">if</code>或者<code class="notranslate">else if</code>语句中使用<code class="notranslate">if</code>或者<code class="notranslate">else if</code>语句</p>
+</li>
+<li>
+<p>语法：</p>
+</li>
+</ul>
+<div class="highlight highlight-source-java"><pre class="notranslate"><span class="pl-k">if</span>(<span class="pl-s1">布尔表达式1</span>){
+    <span class="pl-c">//如果布尔表达式1的值为true执行代码</span>
+    <span class="pl-k">if</span>(<span class="pl-s1">布尔表达式2</span>){
+        <span class="pl-c">//如果布尔表达式2的值为true执行代码</span>
+    }
+}</pre></div>
+<h2><code class="notranslate">switch</code></h2>
+<h3>多选择结构</h3>
+<ul>
+<li>
+<p>判断一个变量与一系列值中某个值是否相等，每个值称为一个分支</p>
+<ul>
+<li>这就是==<em><strong><code class="notranslate">switch case</code>语句</strong></em>==</li>
+</ul>
+</li>
+<li>
+<p>语法：</p>
+</li>
+</ul>
+<div class="highlight highlight-source-java"><pre class="notranslate"><span class="pl-k">switch</span>(<span class="pl-s1">expression</span>){
+    <span class="pl-k">case</span> <span class="pl-s1">value</span>:
+        <span class="pl-c">//语句</span>
+        <span class="pl-k">break</span>;<span class="pl-c">//可选</span>
+    <span class="pl-k">case</span> <span class="pl-s1">value</span>:
+        <span class="pl-c">//语句</span>
+        <span class="pl-k">break</span>;<span class="pl-c">//可选</span>
+    <span class="pl-c">//你可以有任意数量的case语句</span>
+    <span class="pl-k">default</span>: <span class="pl-c">//可选</span>
+        <span class="pl-c">//语句</span>
+}</pre></div>
+<h4><code class="notranslate">case</code>穿透</h4>
+<ul>
+<li><code class="notranslate">switch</code>匹配一个具体的值
+<ul>
+<li>==<em><strong>之后一定要加<code class="notranslate">break</code></strong></em>==</li>
+<li><strong>否则将继续执行后续的代码块（不进行任何判断）</strong></li>
+</ul>
+</li>
+</ul>
+<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/efe5acbe-ae90-4394-9eaa-9d6d728344f4"><img width="628" height="928" alt="Image" src="https://github.com/user-attachments/assets/efe5acbe-ae90-4394-9eaa-9d6d728344f4" style="max-width: 100%; height: auto; max-height: 928px;; aspect-ratio: 628 / 928; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a></p>
+<h4><code class="notranslate">Jdk7</code>新特性</h4>
+<ul>
+<li><code class="notranslate">switch</code>语句中的变量类型可以是：
+<ul>
+<li><code class="notranslate">byte、short、int或者char</code></li>
+<li>从==<strong><code class="notranslate">jdk7</code>（<code class="notranslate">Java SE 7</code>）</strong>==开始
+<ul>
+<li>==<em><strong><code class="notranslate">switch</code>支持字符串<code class="notranslate">String</code>类型了</strong></em>==</li>
+<li>同时<code class="notranslate">case</code>标签必须为字符串常量或字面量</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/8f57c17f-1537-494b-993c-f649e7b727b2"><img width="762" height="831" alt="Image" src="https://github.com/user-attachments/assets/8f57c17f-1537-494b-993c-f649e7b727b2" style="max-width: 100%; height: auto; max-height: 831px;; aspect-ratio: 762 / 831; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a></p></div>
+<div style="font-size:small;margin-top:8px;float:right;"></div>
+
+<button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
+<div class="comments" id="comments"></div>
+
+</div>
+    <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="https://hare753.github.io">长颈鹭的博客</a></div>
+<div id="footer2">
+    <span id="runday"></span><span>Powered by <a href="https://meekdai.com/Gmeek.html" target="_blank">Gmeek</a></span>
+</div>
+
+<script>
+var now=new Date();
+document.getElementById("copyrightYear").innerHTML=now.getFullYear();
+
+if(""!=""){
+    var startSite=new Date("");
+    var diff=now.getTime()-startSite.getTime();
+    var diffDay=Math.floor(diff/(1000*60*60*24));
+    document.getElementById("runday").innerHTML="网站运行 "+diffDay+" 天"+" • ";
+}
+</script></div>
+</body>
+<script>
+var IconList={'sun': 'M8 10.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5zM8 12a4 4 0 100-8 4 4 0 000 8zM8 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V.75A.75.75 0 018 0zm0 13a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 018 13zM2.343 2.343a.75.75 0 011.061 0l1.06 1.061a.75.75 0 01-1.06 1.06l-1.06-1.06a.75.75 0 010-1.06zm9.193 9.193a.75.75 0 011.06 0l1.061 1.06a.75.75 0 01-1.06 1.061l-1.061-1.06a.75.75 0 010-1.061zM16 8a.75.75 0 01-.75.75h-1.5a.75.75 0 010-1.5h1.5A.75.75 0 0116 8zM3 8a.75.75 0 01-.75.75H.75a.75.75 0 010-1.5h1.5A.75.75 0 013 8zm10.657-5.657a.75.75 0 010 1.061l-1.061 1.06a.75.75 0 11-1.06-1.06l1.06-1.06a.75.75 0 011.06 0zm-9.193 9.193a.75.75 0 010 1.06l-1.06 1.061a.75.75 0 11-1.061-1.06l1.06-1.061a.75.75 0 011.061 0z', 'moon': 'M9.598 1.591a.75.75 0 01.785-.175 7 7 0 11-8.967 8.967.75.75 0 01.961-.96 5.5 5.5 0 007.046-7.046.75.75 0 01.175-.786zm1.616 1.945a7 7 0 01-7.678 7.678 5.5 5.5 0 107.678-7.678z', 'sync': 'M1.705 8.005a.75.75 0 0 1 .834.656 5.5 5.5 0 0 0 9.592 2.97l-1.204-1.204a.25.25 0 0 1 .177-.427h3.646a.25.25 0 0 1 .25.25v3.646a.25.25 0 0 1-.427.177l-1.38-1.38A7.002 7.002 0 0 1 1.05 8.84a.75.75 0 0 1 .656-.834ZM8 2.5a5.487 5.487 0 0 0-4.131 1.869l1.204 1.204A.25.25 0 0 1 4.896 6H1.25A.25.25 0 0 1 1 5.75V2.104a.25.25 0 0 1 .427-.177l1.38 1.38A7.002 7.002 0 0 1 14.95 7.16a.75.75 0 0 1-1.49.178A5.5 5.5 0 0 0 8 2.5Z', 'home': 'M6.906.664a1.749 1.749 0 0 1 2.187 0l5.25 4.2c.415.332.657.835.657 1.367v7.019A1.75 1.75 0 0 1 13.25 15h-3.5a.75.75 0 0 1-.75-.75V9H7v5.25a.75.75 0 0 1-.75.75h-3.5A1.75 1.75 0 0 1 1 13.25V6.23c0-.531.242-1.034.657-1.366l5.25-4.2Zm1.25 1.171a.25.25 0 0 0-.312 0l-5.25 4.2a.25.25 0 0 0-.094.196v7.019c0 .138.112.25.25.25H5.5V8.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v5.25h2.75a.25.25 0 0 0 .25-.25V6.23a.25.25 0 0 0-.094-.195Z', 'github': 'M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z', 'copy': 'M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z', 'check': 'M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z'};
+var utterancesLoad=0;
+
+let themeSettings={
+    "dark": ["dark","moon","#00f0ff","dark-blue"],
+    "light": ["light","sun","#ff5000","github-light"],
+    "auto": ["auto","sync","","preferred-color-scheme"]
+};
+function changeTheme(mode, icon, color, utheme){
+    document.documentElement.setAttribute("data-color-mode",mode);
+    document.getElementById("themeSwitch").setAttribute("d",value=IconList[icon]);
+    document.getElementById("themeSwitch").parentNode.style.color=color;
+    if(utterancesLoad==1){utterancesTheme(utheme);}
+}
+function modeSwitch(){
+    let currentMode=document.documentElement.getAttribute('data-color-mode');
+    let newMode = currentMode === "light" ? "dark" : currentMode === "dark" ? "auto" : "light";
+    localStorage.setItem("meek_theme", newMode);
+    if(themeSettings[newMode]){
+        changeTheme(...themeSettings[newMode]);
+    }
+}
+function utterancesTheme(theme){
+    const message={type:'set-theme',theme: theme};
+    const iframe=document.getElementsByClassName('utterances-frame')[0];
+    iframe.contentWindow.postMessage(message,'https://utteranc.es');
+}
+if(themeSettings[theme]){changeTheme(...themeSettings[theme]);}
+console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n","padding:5px 0;background:#02d81d;color:#fff");
+</script>
+
+<script>
+document.getElementById("pathHome").setAttribute("d",IconList["home"]);
+document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
+
+function openComments(){
+    cm=document.getElementById("comments");
+    cmButton=document.getElementById("cmButton");
+    cmButton.disabled=true;
+    cmButton.innerHTML="loading";
+    span=document.createElement("span");
+    span.setAttribute("class","AnimatedEllipsis");
+    cmButton.appendChild(span);
+
+    script=document.createElement("script");
+    script.setAttribute("src","https://utteranc.es/client.js");
+    script.setAttribute("repo","hare753/hare753.github.io");
+    script.setAttribute("issue-term","title");
+    
+    if(localStorage.getItem("meek_theme")=="dark"){script.setAttribute("theme","dark-blue");}
+    else if(localStorage.getItem("meek_theme")=="light") {script.setAttribute("theme","github-light");}
+    else{script.setAttribute("theme","preferred-color-scheme");}
+    
+    script.setAttribute("crossorigin","anonymous");
+    script.setAttribute("async","");
+    cm.appendChild(script);
+
+    int=self.setInterval("iFrameLoading()",200);
+}
+
+function iFrameLoading(){
+    var utterances=document.getElementsByClassName('utterances');
+    if(utterances.length==1){
+        if(utterances[0].style.height!=""){
+            utterancesLoad=1;
+            int=window.clearInterval(int);
+            document.getElementById("cmButton").style.display="none";
+            console.log("utterances Load OK");
+        }
+    }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    const createClipboardHTML = (codeContent, additionalClasses = '') => `
+        <pre class="notranslate"><code class="notranslate">${codeContent}</code></pre>
+        <div class="clipboard-container position-absolute right-0 top-0 ${additionalClasses}">
+            <clipboard-copy class="ClipboardButton btn m-2 p-0" role="button" style="display: inherit;">
+                <svg height="16" width="16" class="octicon octicon-copy m-2"><path d="${IconList["copy"]}"></path></svg>
+                <svg height="16" width="16" class="octicon octicon-check color-fg-success m-2 d-none"><path d="${IconList["check"]}"></path></svg>
+            </clipboard-copy>
+            <div class="copy-feedback">Copied!</div>
+        </div>
+    `;
+
+    const handleCodeElements = (selector = '') => {
+        document.querySelectorAll(selector).forEach(codeElement => {
+            const codeContent = codeElement.innerHTML;
+            const newStructure = document.createElement('div');
+            newStructure.className = 'snippet-clipboard-content position-relative overflow-auto';
+            newStructure.innerHTML = createClipboardHTML(codeContent);
+
+            const parentElement = codeElement.parentElement;
+            if (selector.includes('highlight')) {
+                parentElement.insertBefore(newStructure, codeElement.nextSibling);
+                parentElement.removeChild(codeElement);
+            } else {
+                parentElement.parentElement.replaceChild(newStructure, parentElement);
+            }
+        });
+    };
+
+    handleCodeElements('pre.notranslate > code.notranslate');
+    handleCodeElements('div.highlight > pre.notranslate');
+
+    let currentFeedback = null;
+    document.querySelectorAll('clipboard-copy').forEach(copyButton => {
+        copyButton.addEventListener('click', () => {
+            const codeContent = copyButton.closest('.snippet-clipboard-content').innerText;
+            const tempTextArea = document.createElement('textarea');
+            tempTextArea.value = codeContent;
+            document.body.appendChild(tempTextArea);
+            tempTextArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempTextArea);
+
+            const copyIcon = copyButton.querySelector('.octicon-copy');
+            const checkIcon = copyButton.querySelector('.octicon-check');
+            const copyFeedback = copyButton.nextElementSibling;
+
+            if (currentFeedback && currentFeedback !== copyFeedback) {currentFeedback.style.display = 'none';}
+            currentFeedback = copyFeedback;
+
+            copyIcon.classList.add('d-none');
+            checkIcon.classList.remove('d-none');
+            copyFeedback.style.display = 'block';
+            copyButton.style.borderColor = 'var(--color-success-fg)';
+
+            setTimeout(() => {
+                copyIcon.classList.remove('d-none');
+                checkIcon.classList.add('d-none');
+                copyFeedback.style.display = 'none';
+                copyButton.style.borderColor = '';
+            }, 2000);
+        });
+    });
+});
+
+</script>
+
+
+</html>
