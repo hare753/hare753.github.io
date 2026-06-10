@@ -1,5 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Tue, 09 Jun 2026 07:10:44 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>打印三角形</title><link>https://hare753.github.io/post/da-yin-san-jiao-xing.html</link><description># 流程控制练习
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Wed, 10 Jun 2026 07:00:23 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>什么是方法</title><link>https://hare753.github.io/post/shen-me-shi-fang-fa.html</link><description># 何谓方法？
+
+- **`Java`方法是语句的集合，它们在一起执行一个功能**
+  - 方法是解决一类问题的步骤的有序组合
+  - 方法包含于类或对象中
+  - **方法在程序中被创建，在其他地方被引用**
+
+- 设计方法的原则：
+  - 方法的本意是功能块
+    - 就是实现某个功能的语句块的集合
+- 回顾：方法的命名规则
+  - 首字母小写，后面驼峰命名规则
+
+&lt;img width='624' height='547' alt='Image' src='https://github.com/user-attachments/assets/2157f700-7549-413d-afd8-b7d630ee6576' /&gt;
+
+
+## ==原子性==
+
+- 方法的==***原子性***==
+  - ***一个方法只完成1个功能***
+    - ***这样利于我们后期的扩展***
+
+&lt;img width='610' height='579' alt='Image' src='https://github.com/user-attachments/assets/b4cc2ad2-7703-4b31-bd7b-760971f16d1f' /&gt;
+
+&lt;img width='585' height='457' alt='Image' src='https://github.com/user-attachments/assets/26b348f0-0558-46ac-898b-0a6c9958bb02' /&gt;
+
+
+
+。</description><guid isPermaLink="true">https://hare753.github.io/post/shen-me-shi-fang-fa.html</guid><pubDate>Wed, 10 Jun 2026 06:59:55 +0000</pubDate></item><item><title>打印三角形</title><link>https://hare753.github.io/post/da-yin-san-jiao-xing.html</link><description># 流程控制练习
 
 ## 打印三角形
 
