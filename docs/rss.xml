@@ -1,5 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Wed, 10 Jun 2026 07:00:23 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>什么是方法</title><link>https://hare753.github.io/post/shen-me-shi-fang-fa.html</link><description># 何谓方法？
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Fri, 12 Jun 2026 03:02:03 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>方法的定义和调用</title><link>https://hare753.github.io/post/fang-fa-de-ding-yi-he-diao-yong.html</link><description># 方法
+
+## 方法的定义
+
+- `Java`方法类似于其他语言的函数
+  - 是一段***用来完成特定功能的代码片段***
+- 一般情况下，定义包含以下语法：
+  - ***方法包含一个方法头和一个方法体***
+- 一个方法的所有部分：
+  - **修饰符**：
+    - **可选的**。</description><guid isPermaLink="true">https://hare753.github.io/post/fang-fa-de-ding-yi-he-diao-yong.html</guid><pubDate>Fri, 12 Jun 2026 03:01:38 +0000</pubDate></item><item><title>什么是方法</title><link>https://hare753.github.io/post/shen-me-shi-fang-fa.html</link><description># 何谓方法？
 
 - **`Java`方法是语句的集合，它们在一起执行一个功能**
   - 方法是解决一类问题的步骤的有序组合
