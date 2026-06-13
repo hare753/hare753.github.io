@@ -1,5 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Sat, 13 Jun 2026 02:06:41 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>方法的重载</title><link>https://hare753.github.io/post/fang-fa-de-zhong-zai.html</link><description># 方法的重载
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Sat, 13 Jun 2026 02:10:46 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>命令行传参（扩展）</title><link>https://hare753.github.io/post/ming-ling-xing-chuan-can-%EF%BC%88-kuo-zhan-%EF%BC%89.html</link><description># 命令行传参（扩展）
+
+- 有时候你希望运行一个程序时候再传递给它信息
+  - 这要靠传递命令行参数给`main()`函数实现
+
+- 举例：
+
+&lt;img width='806' height='365' alt='Image' src='https://github.com/user-attachments/assets/24153790-d127-4a51-9c9b-54162d968bf4' /&gt;
+
+&lt;img width='1133' height='361' alt='Image' src='https://github.com/user-attachments/assets/6031cd2e-8ef4-4ee2-a383-5c142ff4882e' /&gt;
+
+
+。</description><guid isPermaLink="true">https://hare753.github.io/post/ming-ling-xing-chuan-can-%EF%BC%88-kuo-zhan-%EF%BC%89.html</guid><pubDate>Sat, 13 Jun 2026 02:10:15 +0000</pubDate></item><item><title>方法的重载</title><link>https://hare753.github.io/post/fang-fa-de-zhong-zai.html</link><description># 方法的重载
 
 - 重载就是在**一个类中**，**相同的函数名称**，但**形参不同的函数**
 - 方法的重载的规则：
