@@ -1,5 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Fri, 12 Jun 2026 03:02:03 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>方法的定义和调用</title><link>https://hare753.github.io/post/fang-fa-de-ding-yi-he-diao-yong.html</link><description># 方法
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Sat, 13 Jun 2026 02:06:41 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>方法的重载</title><link>https://hare753.github.io/post/fang-fa-de-zhong-zai.html</link><description># 方法的重载
+
+- 重载就是在**一个类中**，**相同的函数名称**，但**形参不同的函数**
+- 方法的重载的规则：
+  - **必须**：
+    - ==***方法名必须相同***==
+    - ==***参数列表必须不同（个数不同、或类型不同、参数排列顺序不同等）***==
+  - 可选：
+    - 方法的返回类型可以相同也可以不相同
+    - 仅仅返回类型不同不足以成为方法的重载
+- 实现理论：
+  - 方法名称相同时，编译器会根据调用方法的参数个数、参数类型等去逐个匹配，以选择对应的方法
+  - 如果匹配失败，则编译器报错
+
+```java
+//根据调用方法去选择对应的
+public static void main(String[] args){
+    int max = max(10,20,30);
+    System.out.println(max);
+}
+
+//方法的重载
+//比大小
+public static int max(double num1,double num2){...}
+
+public static int max(int num1,int num2){...}
+
+public static int max(int num1,int num2,int num3){...}
+```
+
+。</description><guid isPermaLink="true">https://hare753.github.io/post/fang-fa-de-zhong-zai.html</guid><pubDate>Sat, 13 Jun 2026 02:06:15 +0000</pubDate></item><item><title>方法的定义和调用</title><link>https://hare753.github.io/post/fang-fa-de-ding-yi-he-diao-yong.html</link><description># 方法
 
 ## 方法的定义
 
