@@ -1,5 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Sat, 13 Jun 2026 02:10:46 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>命令行传参（扩展）</title><link>https://hare753.github.io/post/ming-ling-xing-chuan-can-%EF%BC%88-kuo-zhan-%EF%BC%89.html</link><description># 命令行传参（扩展）
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Sun, 14 Jun 2026 06:47:34 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>可变参数</title><link>https://hare753.github.io/post/ke-bian-can-shu.html</link><description># 可变参数
+
+- `JDK1.5`开始，`Java`支持传递同类型的可变参数给一个方法
+- 格式：
+  - 在方法声明中，==***指定参数类型后加一个省略号（...）***==
+
+- **一个方法只能指定一个可变参数，它必须是方法的最后一个参数。</description><guid isPermaLink="true">https://hare753.github.io/post/ke-bian-can-shu.html</guid><pubDate>Sun, 14 Jun 2026 06:47:09 +0000</pubDate></item><item><title>命令行传参（扩展）</title><link>https://hare753.github.io/post/ming-ling-xing-chuan-can-%EF%BC%88-kuo-zhan-%EF%BC%89.html</link><description># 命令行传参（扩展）
 
 - 有时候你希望运行一个程序时候再传递给它信息
   - 这要靠传递命令行参数给`main()`函数实现
