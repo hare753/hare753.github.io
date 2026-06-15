@@ -1,5 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Sun, 14 Jun 2026 06:47:34 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>可变参数</title><link>https://hare753.github.io/post/ke-bian-can-shu.html</link><description># 可变参数
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Mon, 15 Jun 2026 05:36:35 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>递归</title><link>https://hare753.github.io/post/di-gui.html</link><description># ==递归==
+
+- A方法调用B方法，我们很容易理解！
+- 递归：
+  - A方法调用A方法！
+  - 就是==***自己调用自己***==
+- 递归的能力：
+  - 用有限的语句来定义对象的无线集合
+
+- **递归结构包括两个部分：**
+  - **递归头：**
+    - **什么时候不调用自身方法。</description><guid isPermaLink="true">https://hare753.github.io/post/di-gui.html</guid><pubDate>Mon, 15 Jun 2026 05:35:54 +0000</pubDate></item><item><title>可变参数</title><link>https://hare753.github.io/post/ke-bian-can-shu.html</link><description># 可变参数
 
 - `JDK1.5`开始，`Java`支持传递同类型的可变参数给一个方法
 - 格式：
