@@ -1,5 +1,45 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Thu, 18 Jun 2026 07:05:21 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>下标越界及小结</title><link>https://hare753.github.io/post/xia-biao-yue-jie-ji-xiao-jie.html</link><description># 下标越界及小结
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Thu, 18 Jun 2026 07:10:35 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>数组使用</title><link>https://hare753.github.io/post/shu-zu-shi-yong.html</link><description># 数组使用
+
+- 普通的`For`循环
+- `For-Each`循环
+- 数组作方法入参
+- 数组作返回值
+
+
+
+## 普通的`For`循环
+
+&lt;img width='688' height='922' alt='Image' src='https://github.com/user-attachments/assets/bfd36d95-c808-40d4-bba9-f2a8a7377ea9' /&gt;
+
+
+
+## `For-Each`循环
+
+- 举例：
+
+```java
+public static void main(String[] args){
+    int[] arrays = {1,2,3,4,5};
+
+    //JDK1.5，没有下标
+    for (int array : arrays) {
+        System.out.println(array);
+    }
+}
+```
+
+
+
+## 数组作方法入参与返回值
+
+&lt;img width='608' height='612' alt='Image' src='https://github.com/user-attachments/assets/4de44a47-8f0d-4ddb-a2e0-87b8b7249203' /&gt;
+
+&lt;img width='914' height='820' alt='Image' src='https://github.com/user-attachments/assets/a3b92722-2d1c-44cb-b55a-930767b4b67f' /&gt;
+
+
+
+。</description><guid isPermaLink="true">https://hare753.github.io/post/shu-zu-shi-yong.html</guid><pubDate>Thu, 18 Jun 2026 07:10:09 +0000</pubDate></item><item><title>下标越界及小结</title><link>https://hare753.github.io/post/xia-biao-yue-jie-ji-xiao-jie.html</link><description># 下标越界及小结
 
 ## 数组的四个基本特点
 
