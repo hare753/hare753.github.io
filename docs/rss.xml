@@ -1,5 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Wed, 17 Jun 2026 03:43:56 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>三种初始化</title><link>https://hare753.github.io/post/san-zhong-chu-shi-hua.html</link><description># 三种初始化
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Thu, 18 Jun 2026 07:05:21 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>下标越界及小结</title><link>https://hare753.github.io/post/xia-biao-yue-jie-ji-xiao-jie.html</link><description># 下标越界及小结
+
+## 数组的四个基本特点
+
+1. 其长度是确定的。</description><guid isPermaLink="true">https://hare753.github.io/post/xia-biao-yue-jie-ji-xiao-jie.html</guid><pubDate>Thu, 18 Jun 2026 07:04:54 +0000</pubDate></item><item><title>三种初始化</title><link>https://hare753.github.io/post/san-zhong-chu-shi-hua.html</link><description># 三种初始化
 
 - 静态初始化
   - ***创建 + 赋值***
