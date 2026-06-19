@@ -1,5 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Thu, 18 Jun 2026 07:10:35 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>数组使用</title><link>https://hare753.github.io/post/shu-zu-shi-yong.html</link><description># 数组使用
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Fri, 19 Jun 2026 02:55:22 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>二维数组</title><link>https://hare753.github.io/post/er-wei-shu-zu.html</link><description># 二维数组
+
+- 多维数组可以看成是数组的数组
+  - 比如**二维数组**
+    - 就是一个特殊的一维数组
+    - **其每一个元素都是一个一维数组**
+- 二维数组
+  - 解析：以下二维数组`a`可以看成一个两行五列的数组
+
+```java
+int a[][] = new int[2][5];
+```
+
+- 思考：多维数组的使用？
+
+```java
+num[1][0];
+```
+
+&lt;img width='722' height='522' alt='Image' src='https://github.com/user-attachments/assets/88eb7c60-35bb-4a6a-a846-36141e3b9b10' /&gt;
+
+&lt;img width='740' height='754' alt='Image' src='https://github.com/user-attachments/assets/8d738c32-d6db-4975-a03c-a840cb9420b3' /&gt;
+
+
+。</description><guid isPermaLink="true">https://hare753.github.io/post/er-wei-shu-zu.html</guid><pubDate>Fri, 19 Jun 2026 02:54:56 +0000</pubDate></item><item><title>数组使用</title><link>https://hare753.github.io/post/shu-zu-shi-yong.html</link><description># 数组使用
 
 - 普通的`For`循环
 - `For-Each`循环
