@@ -1,5 +1,53 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Sun, 21 Jun 2026 09:22:15 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>冒泡排序</title><link>https://hare753.github.io/post/mao-pao-pai-xu.html</link><description># 冒泡排序
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Sat, 27 Jun 2026 08:09:10 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>稀疏数组</title><link>https://hare753.github.io/post/xi-shu-shu-zu.html</link><description># 稀疏数组
+
+- 需求：编写五子棋游戏中，有存盘退出和续上盘的功能
+
+&lt;img width='944' height='332' alt='Image' src='https://github.com/user-attachments/assets/1df042bc-57e9-4398-89d7-9a47ef3a79db' /&gt;
+
+- 分析问题：因为该二维数组的很多值是默认值0，因此记录了很多没有意义的数据
+- 解决：稀疏数组
+
+
+
+## 介绍
+
+- 当一个数组中大部分元素为0，或者为同一值的数组时
+  - 可以使用稀疏数组来保存该数组
+- 稀疏数组的处理方式是：
+  - ***记录数组一共有几行几列，有多少个不同值***
+  - 把具有不同值的元素和行列及值记录在一个小规模的数组中，从而缩小程序的规模
+- 如下图：**左边是原始数组，右边是稀疏数组**
+
+&lt;img width='540' height='380' alt='Image' src='https://github.com/user-attachments/assets/0f4467cb-ea93-4029-991b-74ef6cdd7e6b' /&gt;
+
+
+
+## 实例
+
+### 1、原始的二维数组
+
+&lt;img width='878' height='684' alt='Image' src='https://github.com/user-attachments/assets/fb043553-eeb7-468b-b754-c8b2e23c9e8e' /&gt;
+
+
+
+### 2、转换为稀疏数组
+
+&lt;img width='702' height='720' alt='Image' src='https://github.com/user-attachments/assets/053548ba-ce46-42e0-973e-7018e7742745' /&gt;
+
+&lt;img width='794' height='787' alt='Image' src='https://github.com/user-attachments/assets/89421228-8f39-4f0b-9cd3-0b5c61b23e23' /&gt;
+
+
+
+### 3、还原数组
+
+&lt;img width='790' height='789' alt='Image' src='https://github.com/user-attachments/assets/679d8d54-067f-46b9-8ec3-ad69f39fe7ae' /&gt;
+
+
+
+
+
+。</description><guid isPermaLink="true">https://hare753.github.io/post/xi-shu-shu-zu.html</guid><pubDate>Sat, 27 Jun 2026 08:08:37 +0000</pubDate></item><item><title>冒泡排序</title><link>https://hare753.github.io/post/mao-pao-pai-xu.html</link><description># 冒泡排序
 
 - 冒泡排序无疑是最为出名的排序算法之一，总共有***八大排序！***
 - 冒泡的代码还是相当简单的
