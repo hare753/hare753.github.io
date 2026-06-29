@@ -1,5 +1,69 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Sun, 28 Jun 2026 08:28:55 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>什么是面向对象</title><link>https://hare753.github.io/post/shen-me-shi-mian-xiang-dui-xiang.html</link><description># 前言
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Mon, 29 Jun 2026 07:54:30 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>回顾方法及加深</title><link>https://hare753.github.io/post/hui-gu-fang-fa-ji-jia-shen.html</link><description># 回顾方法及加深
+
+## 方法的定义
+
+- 修饰符
+- 返回类型
+- **break 和 return 的区别**
+  - **`break`：跳出`switch`，结束循环**
+- 方法名
+  - 注意规范就OK、见名知意
+- 参数列表
+  - （参数类型，参数名）...
+- ***异常抛出***
+
+&lt;img width='616' height='906' alt='Image' src='https://github.com/user-attachments/assets/7ddbae31-995f-4a78-96a0-107b6a1306c7' /&gt;
+
+&lt;img width='740' height='452' alt='Image' src='https://github.com/user-attachments/assets/416eb677-234a-46fe-baf4-725e7cfb17fe' /&gt;
+
+
+
+## 方法的调用
+
+- 静态方法
+- 非静态方法
+- 形参和实参
+- 值传递和引用传递
+- this关键字
+- 递归
+
+
+
+### 例子1
+
+&lt;img width='553' height='440' alt='Image' src='https://github.com/user-attachments/assets/cc64b107-3916-4106-a3ae-ec3afb1b79f0' /&gt;
+
+&lt;img width='625' height='791' alt='Image' src='https://github.com/user-attachments/assets/0ccda6be-3c0c-46d6-b4c6-7b8f9dfb9ba0' /&gt;
+
+
+
+### 例子2
+
+&lt;img width='619' height='506' alt='Image' src='https://github.com/user-attachments/assets/be81a613-61b2-49e7-a1db-2004e5c37b12' /&gt;
+
+
+
+### 例子3
+
+&lt;img width='609' height='718' alt='Image' src='https://github.com/user-attachments/assets/ac41ccc2-b43a-4dfc-a224-80b693b7b576' /&gt;
+
+
+
+### 例子4
+
+&lt;img width='855' height='895' alt='Image' src='https://github.com/user-attachments/assets/42cc8b07-3f9f-43cb-a5f7-a4a79ebe67fd' /&gt;
+
+&lt;img width='504' height='217' alt='Image' src='https://github.com/user-attachments/assets/9db85865-b2c9-4ff4-9696-92e734f98bc2' /&gt;
+
+
+
+
+
+
+
+
+。</description><guid isPermaLink="true">https://hare753.github.io/post/hui-gu-fang-fa-ji-jia-shen.html</guid><pubDate>Mon, 29 Jun 2026 07:54:00 +0000</pubDate></item><item><title>什么是面向对象</title><link>https://hare753.github.io/post/shen-me-shi-mian-xiang-dui-xiang.html</link><description># 前言
 
 ## 面向过程 &amp; 面向对象
 
