@@ -1,5 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Mon, 29 Jun 2026 07:54:30 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>回顾方法及加深</title><link>https://hare753.github.io/post/hui-gu-fang-fa-ji-jia-shen.html</link><description># 回顾方法及加深
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Tue, 30 Jun 2026 09:49:02 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>类与对象的关系</title><link>https://hare753.github.io/post/lei-yu-dui-xiang-de-guan-xi.html</link><description># 类与对象的关系
+
+- **类是一种抽象的数据类型，它是对某一类事物整体描述/定义，但是并不能代表某一个具体的事物**
+  - 动物、植物、手机、电脑…
+  - Person类、Pet类、Car类等，这些类都是用来描述/定义某一类具体的事物应该具备的特点和行为
+- **对象是抽象概念的具体实例**
+  - 张三就是人的一个具体实例，张三家里的旺财就是狗的一个具体实例
+  - 能够体现出特点，展现出功能的是具体的实例，而不是一个抽象的概念
+
+
+
+# 创建与初始化对象
+
+- **使用new关键字创建对象**
+- 使用new关键字创建的时候，除了分配内存空间之外
+  - 还会给创建好的对象进行默认的初始化
+  - 以及对类中构造器的调用
+- 类中的构造器也称为构造方法，是在进行创建对象的时候必须要调用的。</description><guid isPermaLink="true">https://hare753.github.io/post/lei-yu-dui-xiang-de-guan-xi.html</guid><pubDate>Tue, 30 Jun 2026 09:48:34 +0000</pubDate></item><item><title>回顾方法及加深</title><link>https://hare753.github.io/post/hui-gu-fang-fa-ji-jia-shen.html</link><description># 回顾方法及加深
 
 ## 方法的定义
 
