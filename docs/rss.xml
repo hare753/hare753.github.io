@@ -1,5 +1,58 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Tue, 30 Jun 2026 09:54:30 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>创建对象与内存分析</title><link>https://hare753.github.io/post/chuang-jian-dui-xiang-yu-nei-cun-fen-xi.html</link><description># 创建对象与内存分析
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Tue, 30 Jun 2026 09:59:06 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>简单小结类与对象</title><link>https://hare753.github.io/post/jian-dan-xiao-jie-lei-yu-dui-xiang.html</link><description># 简单小结类与对象
+
+1. 类与对象
+
+   - 类是一个模板
+     - 抽象、对象是一个具体的实例
+
+2. 方法
+
+   - 定义、调用！
+
+3. 对应的引用
+
+   - 引用类型：
+     - 基本类型（8）
+   - 对象是通过引用来操作的：栈——&gt;堆（内存）
+
+4. 属性：字段`Field` 成员变量
+
+   - 默认初始化：
+
+     - 数字：`0` `0.0`
+     - `char`：`u0000`
+     - `boolean`：`false`
+     - 引用：`null`
+
+   - ```java
+     修饰符 属性类型 属性名 = 属性值！
+     ```
+
+5. 对象的创建和使用
+
+   - 必须使用`new`关键字创造对象、构造器
+
+     - ```java
+       Person Tom = new Person();
+       ```
+
+   - 对象的属性
+
+     - `Tom.name`
+
+   - 对象的方法
+
+     - `Tom.sleep()`
+
+6. 类：
+
+   - 静态的属性——属性
+   - 动态的行为——方法
+
+- **封装、继承、多态**
+
+。</description><guid isPermaLink="true">https://hare753.github.io/post/jian-dan-xiao-jie-lei-yu-dui-xiang.html</guid><pubDate>Tue, 30 Jun 2026 09:58:35 +0000</pubDate></item><item><title>创建对象与内存分析</title><link>https://hare753.github.io/post/chuang-jian-dui-xiang-yu-nei-cun-fen-xi.html</link><description># 创建对象与内存分析
 
 ## 示例对象
 
