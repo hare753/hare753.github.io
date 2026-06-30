@@ -1,5 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Tue, 30 Jun 2026 09:49:02 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>类与对象的关系</title><link>https://hare753.github.io/post/lei-yu-dui-xiang-de-guan-xi.html</link><description># 类与对象的关系
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Tue, 30 Jun 2026 09:54:30 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>创建对象与内存分析</title><link>https://hare753.github.io/post/chuang-jian-dui-xiang-yu-nei-cun-fen-xi.html</link><description># 创建对象与内存分析
+
+## 示例对象
+
+&lt;img width='546' height='579' alt='Image' src='https://github.com/user-attachments/assets/9dad4c69-0589-4a79-b8ed-1063bce3b2d2' /&gt;
+
+&lt;img width='625' height='514' alt='Image' src='https://github.com/user-attachments/assets/ac947193-1447-4cec-b8ae-a739afe31644' /&gt;
+
+
+
+## 内存分析
+
+- 注：
+  - ==***堆中包含方法区***==
+
+&lt;img width='1088' height='610' alt='Image' src='https://github.com/user-attachments/assets/881ba879-a672-42cb-8654-bc6ef0bc982b' /&gt;
+
+
+
+。</description><guid isPermaLink="true">https://hare753.github.io/post/chuang-jian-dui-xiang-yu-nei-cun-fen-xi.html</guid><pubDate>Tue, 30 Jun 2026 09:54:04 +0000</pubDate></item><item><title>类与对象的关系</title><link>https://hare753.github.io/post/lei-yu-dui-xiang-de-guan-xi.html</link><description># 类与对象的关系
 
 - **类是一种抽象的数据类型，它是对某一类事物整体描述/定义，但是并不能代表某一个具体的事物**
   - 动物、植物、手机、电脑…
