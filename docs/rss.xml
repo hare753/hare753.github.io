@@ -1,5 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Tue, 30 Jun 2026 09:59:06 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>简单小结类与对象</title><link>https://hare753.github.io/post/jian-dan-xiao-jie-lei-yu-dui-xiang.html</link><description># 简单小结类与对象
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Wed, 01 Jul 2026 09:26:47 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>封装</title><link>https://hare753.github.io/post/feng-zhuang.html</link><description># 封装
+
+- 该露的露，该藏的藏
+  - 我们程序设计要追求==***”高内聚，低耦合“***==
+    - 高内聚就是类的内部数据操作细节自己完成，不允许外部干涉
+    - 低耦合：仅暴露少量的方法给外部使用
+- 封装（数据的隐藏）
+  - **信息隐藏**：
+    - 通常，应禁止直接访问一个对象中数据的实际表示，而应通过操作接口来访问
+- 记住这句话就够了：
+  - ==***属性私有，get/set***==
+
+
+
+## 作用
+
+1. **提高程序的安全性，保护数据**
+2. **隐藏代码的实现细节**
+3. **统一接口**
+4. **系统可维护增加了**
+
+
+
+&lt;img width='780' height='866' alt='Image' src='https://github.com/user-attachments/assets/044178b5-c6cc-4a7f-8d9d-ce7d79d44efa' /&gt;
+
+&lt;img width='703' height='919' alt='Image' src='https://github.com/user-attachments/assets/997ce38e-db75-4c49-a6c8-37298df49075' /&gt;
+
+
+。</description><guid isPermaLink="true">https://hare753.github.io/post/feng-zhuang.html</guid><pubDate>Wed, 01 Jul 2026 09:26:17 +0000</pubDate></item><item><title>简单小结类与对象</title><link>https://hare753.github.io/post/jian-dan-xiao-jie-lei-yu-dui-xiang.html</link><description># 简单小结类与对象
 
 1. 类与对象
 
