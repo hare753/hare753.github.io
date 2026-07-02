@@ -1,5 +1,137 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Wed, 01 Jul 2026 09:26:47 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>封装</title><link>https://hare753.github.io/post/feng-zhuang.html</link><description># 封装
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Thu, 02 Jul 2026 13:22:54 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>继承</title><link>https://hare753.github.io/post/ji-cheng.html</link><description># 继承
+
+- 继承的本质是对某一批类的抽象，从而实现对现实世界更好的建模
+- ==***`extands`***==的意思是“扩展”
+  - 子类是父类的扩展
+- ==***`JAVA`中类只有单继承，没有多继承！***==
+  - 一个儿子只能有一个爸爸，但是一个爸爸可以有多个儿子
+
+
+
+## 类和类之间的关系
+
+- 继承是类和类之间的一种关系
+  - 除此之外，类和类之间的关系还有
+    - 依赖、组合、聚合等
+- 继承关系的俩个类，一个为子类(派生类)，一个为父类(基类)
+  - 子类继承父类
+    - **使用关键字extends来表示**
+  - 子类和父类之间，从意义上讲应该具有`'is a'`的关系
+
+
+
+&lt;img width='611' height='927' alt='Image' src='https://github.com/user-attachments/assets/8fa162e7-d06c-4fe2-8663-257c194cae51' /&gt;
+
+&lt;img width='519' height='338' alt='Image' src='https://github.com/user-attachments/assets/ffc5d074-7669-4aa1-8caf-be56e74d7ace' /&gt;
+
+&lt;img width='645' height='368' alt='Image' src='https://github.com/user-attachments/assets/5771fef7-6a2b-4a49-afb9-6ee03691129c' /&gt;
+
+
+
+## ==*重点*==
+
+- ==***`object`类***==
+- ==***`super`***==
+  - 对比`this`
+- ==***方法重写***==
+  - **重点——&gt;多态**
+
+
+
+## `super`注意点
+
+1. `super`调用父类的构造方法，必须在构造方法的第一位
+2. `super`必须只能出现在子类的方法或者构造方法中！
+3. `super`和`this`不能同时调用构造方法！
+
+
+
+### `Vs this`（对比`this`）：
+
+| 对比              | 代表对象不同       | 前提                     | 构造方法     |
+| ----------------- | ------------------ | ------------------------ | ------------ |
+| `this`/`this()`   | 本身调用者这个对象 | 没有继承也可以使用       | 本类的构造   |
+| `super`/`super()` | 代表父类对象的应用 | 只能在继承条件才可以使用 | 父类的构造！ |
+
+
+
+&lt;img width='630' height='715' alt='Image' src='https://github.com/user-attachments/assets/5b5f5354-78f3-4a25-bc7b-1d1749688adb' /&gt;
+
+&lt;img width='883' height='750' alt='Image' src='https://github.com/user-attachments/assets/e23e1595-072e-4417-838c-b0a4e0a7330c' /&gt;
+
+&lt;img width='678' height='492' alt='Image' src='https://github.com/user-attachments/assets/f2b7abfe-9065-4e2f-9e1f-c3d2a05bad7f' /&gt;
+
+&lt;img width='620' height='398' alt='Image' src='https://github.com/user-attachments/assets/3e3505f0-a2be-48f9-a4c1-89efd17be639' /&gt;
+
+
+
+## 重写
+
+### 前提
+
+- **需要有继承关系**，子类重写父类的方法！
+
+
+
+### 要求
+
+1. 方法名必须相同
+
+2. 参数列表必须相同
+
+3. 修饰符：
+
+   - 范围：
+
+     - **可以扩大，但不能缩小**
+
+   - ```java
+     public &gt; protected &gt; default &gt; private
+     ```
+
+4. 抛出的异常：
+
+   - 范围：
+     - **可以被缩小，但不能扩大**
+
+   - ```java
+     ClsssNotFoundException --&gt; Exception（大）
+     ```
+
+
+
+### 总结
+
+- 子类的方法和父类必要一致，方法体不同！
+- `Alt + Insert : override`（快捷键）
+
+
+
+#### 为什么需要重写
+
+- 父类的功能，子类不一定需要，或者不一定满足！
+
+
+
+### 举例
+
+&lt;img width='551' height='404' alt='Image' src='https://github.com/user-attachments/assets/e7e5f5a7-4542-4ab1-8cfb-b5cfc92c7fa9' /&gt;
+
+&lt;img width='564' height='436' alt='Image' src='https://github.com/user-attachments/assets/eba880a5-d3f9-4c17-8ff2-daaaca577263' /&gt;
+
+&lt;img width='736' height='682' alt='Image' src='https://github.com/user-attachments/assets/37a3b312-9517-4192-8ead-17117ba898fd' /&gt;
+
+
+
+
+
+
+
+
+
+
+。</description><guid isPermaLink="true">https://hare753.github.io/post/ji-cheng.html</guid><pubDate>Thu, 02 Jul 2026 13:22:25 +0000</pubDate></item><item><title>封装</title><link>https://hare753.github.io/post/feng-zhuang.html</link><description># 封装
 
 - 该露的露，该藏的藏
   - 我们程序设计要追求==***”高内聚，低耦合“***==

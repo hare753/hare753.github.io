@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html data-color-mode="light" data-dark-theme="dark" data-light-theme="light" lang="zh-CN">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
+    
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/154416633?v=4&size=64"><script>
+        let theme = localStorage.getItem("meek_theme") || "light";
+        document.documentElement.setAttribute("data-color-mode", theme);
+    </script>
+<meta name="description" content="# 继承
+
+- 继承的本质是对某一批类的抽象，从而实现对现实世界更好的建模
+- ==***`extands`***==的意思是“扩展”
+  - 子类是父类的扩展
+- ==***`JAVA`中类只有单继承，没有多继承！***==
+  - 一个儿子只能有一个爸爸，但是一个爸爸可以有多个儿子
+
+
+
+## 类和类之间的关系
+
+- 继承是类和类之间的一种关系
+  - 除此之外，类和类之间的关系还有
+    - 依赖、组合、聚合等
+- 继承关系的俩个类，一个为子类(派生类)，一个为父类(基类)
+  - 子类继承父类
+    - **使用关键字extends来表示**
+  - 子类和父类之间，从意义上讲应该具有`'is a'`的关系
+
+
+
+<img width='611' height='927' alt='Image' src='https://github.com/user-attachments/assets/8fa162e7-d06c-4fe2-8663-257c194cae51' />
+
+<img width='519' height='338' alt='Image' src='https://github.com/user-attachments/assets/ffc5d074-7669-4aa1-8caf-be56e74d7ace' />
+
+<img width='645' height='368' alt='Image' src='https://github.com/user-attachments/assets/5771fef7-6a2b-4a49-afb9-6ee03691129c' />
+
+
+
+## ==*重点*==
+
+- ==***`object`类***==
+- ==***`super`***==
+  - 对比`this`
+- ==***方法重写***==
+  - **重点——>多态**
+
+
+
+## `super`注意点
+
+1. `super`调用父类的构造方法，必须在构造方法的第一位
+2. `super`必须只能出现在子类的方法或者构造方法中！
+3. `super`和`this`不能同时调用构造方法！
+
+
+
+### `Vs this`（对比`this`）：
+
+| 对比              | 代表对象不同       | 前提                     | 构造方法     |
+| ----------------- | ------------------ | ------------------------ | ------------ |
+| `this`/`this()`   | 本身调用者这个对象 | 没有继承也可以使用       | 本类的构造   |
+| `super`/`super()` | 代表父类对象的应用 | 只能在继承条件才可以使用 | 父类的构造！ |
+
+
+
+<img width='630' height='715' alt='Image' src='https://github.com/user-attachments/assets/5b5f5354-78f3-4a25-bc7b-1d1749688adb' />
+
+<img width='883' height='750' alt='Image' src='https://github.com/user-attachments/assets/e23e1595-072e-4417-838c-b0a4e0a7330c' />
+
+<img width='678' height='492' alt='Image' src='https://github.com/user-attachments/assets/f2b7abfe-9065-4e2f-9e1f-c3d2a05bad7f' />
+
+<img width='620' height='398' alt='Image' src='https://github.com/user-attachments/assets/3e3505f0-a2be-48f9-a4c1-89efd17be639' />
+
+
+
+## 重写
+
+### 前提
+
+- **需要有继承关系**，子类重写父类的方法！
+
+
+
+### 要求
+
+1. 方法名必须相同
+
+2. 参数列表必须相同
+
+3. 修饰符：
+
+   - 范围：
+
+     - **可以扩大，但不能缩小**
+
+   - ```java
+     public > protected > default > private
+     ```
+
+4. 抛出的异常：
+
+   - 范围：
+     - **可以被缩小，但不能扩大**
+
+   - ```java
+     ClsssNotFoundException --> Exception（大）
+     ```
+
+
+
+### 总结
+
+- 子类的方法和父类必要一致，方法体不同！
+- `Alt + Insert : override`（快捷键）
+
+
+
+#### 为什么需要重写
+
+- 父类的功能，子类不一定需要，或者不一定满足！
+
+
+
+### 举例
+
+<img width='551' height='404' alt='Image' src='https://github.com/user-attachments/assets/e7e5f5a7-4542-4ab1-8cfb-b5cfc92c7fa9' />
+
+<img width='564' height='436' alt='Image' src='https://github.com/user-attachments/assets/eba880a5-d3f9-4c17-8ff2-daaaca577263' />
+
+<img width='736' height='682' alt='Image' src='https://github.com/user-attachments/assets/37a3b312-9517-4192-8ead-17117ba898fd' />
+
+
+
+
+
+
+
+
+
+
+。">
+<meta property="og:title" content="继承">
+<meta property="og:description" content="# 继承
+
+- 继承的本质是对某一批类的抽象，从而实现对现实世界更好的建模
+- ==***`extands`***==的意思是“扩展”
+  - 子类是父类的扩展
+- ==***`JAVA`中类只有单继承，没有多继承！***==
+  - 一个儿子只能有一个爸爸，但是一个爸爸可以有多个儿子
+
+
+
+## 类和类之间的关系
+
+- 继承是类和类之间的一种关系
+  - 除此之外，类和类之间的关系还有
+    - 依赖、组合、聚合等
+- 继承关系的俩个类，一个为子类(派生类)，一个为父类(基类)
+  - 子类继承父类
+    - **使用关键字extends来表示**
+  - 子类和父类之间，从意义上讲应该具有`'is a'`的关系
+
+
+
+<img width='611' height='927' alt='Image' src='https://github.com/user-attachments/assets/8fa162e7-d06c-4fe2-8663-257c194cae51' />
+
+<img width='519' height='338' alt='Image' src='https://github.com/user-attachments/assets/ffc5d074-7669-4aa1-8caf-be56e74d7ace' />
+
+<img width='645' height='368' alt='Image' src='https://github.com/user-attachments/assets/5771fef7-6a2b-4a49-afb9-6ee03691129c' />
+
+
+
+## ==*重点*==
+
+- ==***`object`类***==
+- ==***`super`***==
+  - 对比`this`
+- ==***方法重写***==
+  - **重点——>多态**
+
+
+
+## `super`注意点
+
+1. `super`调用父类的构造方法，必须在构造方法的第一位
+2. `super`必须只能出现在子类的方法或者构造方法中！
+3. `super`和`this`不能同时调用构造方法！
+
+
+
+### `Vs this`（对比`this`）：
+
+| 对比              | 代表对象不同       | 前提                     | 构造方法     |
+| ----------------- | ------------------ | ------------------------ | ------------ |
+| `this`/`this()`   | 本身调用者这个对象 | 没有继承也可以使用       | 本类的构造   |
+| `super`/`super()` | 代表父类对象的应用 | 只能在继承条件才可以使用 | 父类的构造！ |
+
+
+
+<img width='630' height='715' alt='Image' src='https://github.com/user-attachments/assets/5b5f5354-78f3-4a25-bc7b-1d1749688adb' />
+
+<img width='883' height='750' alt='Image' src='https://github.com/user-attachments/assets/e23e1595-072e-4417-838c-b0a4e0a7330c' />
+
+<img width='678' height='492' alt='Image' src='https://github.com/user-attachments/assets/f2b7abfe-9065-4e2f-9e1f-c3d2a05bad7f' />
+
+<img width='620' height='398' alt='Image' src='https://github.com/user-attachments/assets/3e3505f0-a2be-48f9-a4c1-89efd17be639' />
+
+
+
+## 重写
+
+### 前提
+
+- **需要有继承关系**，子类重写父类的方法！
+
+
+
+### 要求
+
+1. 方法名必须相同
+
+2. 参数列表必须相同
+
+3. 修饰符：
+
+   - 范围：
+
+     - **可以扩大，但不能缩小**
+
+   - ```java
+     public > protected > default > private
+     ```
+
+4. 抛出的异常：
+
+   - 范围：
+     - **可以被缩小，但不能扩大**
+
+   - ```java
+     ClsssNotFoundException --> Exception（大）
+     ```
+
+
+
+### 总结
+
+- 子类的方法和父类必要一致，方法体不同！
+- `Alt + Insert : override`（快捷键）
+
+
+
+#### 为什么需要重写
+
+- 父类的功能，子类不一定需要，或者不一定满足！
+
+
+
+### 举例
+
+<img width='551' height='404' alt='Image' src='https://github.com/user-attachments/assets/e7e5f5a7-4542-4ab1-8cfb-b5cfc92c7fa9' />
+
+<img width='564' height='436' alt='Image' src='https://github.com/user-attachments/assets/eba880a5-d3f9-4c17-8ff2-daaaca577263' />
+
+<img width='736' height='682' alt='Image' src='https://github.com/user-attachments/assets/37a3b312-9517-4192-8ead-17117ba898fd' />
+
+
+
+
+
+
+
+
+
+
+。">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://hare753.github.io/post/ji-cheng.html">
+<meta property="og:image" content="https://avatars.githubusercontent.com/u/154416633?v=4&size=64">
+<title>继承</title>
+<link href="//unpkg.com/@wooorm/starry-night@2.1.1/style/both.css" rel="stylesheet" />
+
+
+</head>
+<style>
+body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;padding: 45px;font-size: 16px;font-family: sans-serif;line-height: 1.25;}
+#header{display:flex;padding-bottom:8px;border-bottom: 1px solid var(--borderColor-muted, var(--color-border-muted));margin-bottom: 16px;}
+#footer {margin-top:64px; text-align: center;font-size: small;}
+
+</style>
+
+<style>
+.postTitle{margin: auto 0;font-size:40px;font-weight:bold;}
+.title-right{display:flex;margin:auto 0 0 auto;}
+.title-right .circle{padding: 14px 16px;margin-right:8px;}
+#postBody{border-bottom: 1px solid var(--color-border-default);padding-bottom:36px;}
+#postBody hr{height:2px;}
+#cmButton{height:48px;margin-top:48px;}
+#comments{margin-top:64px;}
+.g-emoji{font-size:24px;}
+@media (max-width: 600px) {
+    body {padding: 8px;}
+    .postTitle{font-size:24px;}
+}
+.copy-feedback {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    color: var(--color-fg-on-emphasis);
+    background-color: var(--color-fg-muted);
+    border-radius: 3px;
+    padding: 5px 8px;
+    font-size: 12px;
+}
+</style>
+
+
+
+
+<body>
+    <div id="header">
+<h1 class="postTitle">继承</h1>
+<div class="title-right">
+    <a href="https://hare753.github.io" id="buttonHome" class="btn btn-invisible circle" title="首页">
+        <svg class="octicon" width="16" height="16">
+            <path id="pathHome" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+    
+    <a href="https://github.com/hare753/hare753.github.io/issues/50" target="_blank" class="btn btn-invisible circle" title="Issue">
+        <svg class="octicon" width="16" height="16">
+            <path id="pathIssue" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+    
+
+    <a class="btn btn-invisible circle" onclick="modeSwitch();" title="切换主题">
+        <svg class="octicon" width="16" height="16" >
+            <path id="themeSwitch" fill-rule="evenodd"></path>
+        </svg>
+    </a>
+
+</div>
+</div>
+    <div id="content">
+<div class="markdown-body" id="postBody"><h1>继承</h1>
+<ul>
+<li>继承的本质是对某一批类的抽象，从而实现对现实世界更好的建模</li>
+<li>==<em><strong><code class="notranslate">extands</code></strong></em>==的意思是“扩展”
+<ul>
+<li>子类是父类的扩展</li>
+</ul>
+</li>
+<li>==<em><strong><code class="notranslate">JAVA</code>中类只有单继承，没有多继承！</strong></em>==
+<ul>
+<li>一个儿子只能有一个爸爸，但是一个爸爸可以有多个儿子</li>
+</ul>
+</li>
+</ul>
+<h2>类和类之间的关系</h2>
+<ul>
+<li>继承是类和类之间的一种关系
+<ul>
+<li>除此之外，类和类之间的关系还有
+<ul>
+<li>依赖、组合、聚合等</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>继承关系的俩个类，一个为子类(派生类)，一个为父类(基类)
+<ul>
+<li>子类继承父类
+<ul>
+<li><strong>使用关键字extends来表示</strong></li>
+</ul>
+</li>
+<li>子类和父类之间，从意义上讲应该具有<code class="notranslate">"is a"</code>的关系</li>
+</ul>
+</li>
+</ul>
+<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/8fa162e7-d06c-4fe2-8663-257c194cae51"><img width="611" height="927" alt="Image" src="https://github.com/user-attachments/assets/8fa162e7-d06c-4fe2-8663-257c194cae51" style="max-width: 100%; height: auto; max-height: 927px;; aspect-ratio: 611 / 927; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a></p>
+<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/ffc5d074-7669-4aa1-8caf-be56e74d7ace"><img width="519" height="338" alt="Image" src="https://github.com/user-attachments/assets/ffc5d074-7669-4aa1-8caf-be56e74d7ace" style="max-width: 100%; height: auto; max-height: 338px;; aspect-ratio: 519 / 338; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a></p>
+<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/5771fef7-6a2b-4a49-afb9-6ee03691129c"><img width="645" height="368" alt="Image" src="https://github.com/user-attachments/assets/5771fef7-6a2b-4a49-afb9-6ee03691129c" style="max-width: 100%; height: auto; max-height: 368px;; aspect-ratio: 645 / 368; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a></p>
+<h2>==<em>重点</em>==</h2>
+<ul>
+<li>==<em><strong><code class="notranslate">object</code>类</strong></em>==</li>
+<li>==<em><strong><code class="notranslate">super</code></strong></em>==
+<ul>
+<li>对比<code class="notranslate">this</code></li>
+</ul>
+</li>
+<li>==<em><strong>方法重写</strong></em>==
+<ul>
+<li><strong>重点——&gt;多态</strong></li>
+</ul>
+</li>
+</ul>
+<h2><code class="notranslate">super</code>注意点</h2>
+<ol>
+<li><code class="notranslate">super</code>调用父类的构造方法，必须在构造方法的第一位</li>
+<li><code class="notranslate">super</code>必须只能出现在子类的方法或者构造方法中！</li>
+<li><code class="notranslate">super</code>和<code class="notranslate">this</code>不能同时调用构造方法！</li>
+</ol>
+<h3><code class="notranslate">Vs this</code>（对比<code class="notranslate">this</code>）：</h3>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>对比</th>
+<th>代表对象不同</th>
+<th>前提</th>
+<th>构造方法</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code class="notranslate">this</code>/<code class="notranslate">this()</code></td>
+<td>本身调用者这个对象</td>
+<td>没有继承也可以使用</td>
+<td>本类的构造</td>
+</tr>
+<tr>
+<td><code class="notranslate">super</code>/<code class="notranslate">super()</code></td>
+<td>代表父类对象的应用</td>
+<td>只能在继承条件才可以使用</td>
+<td>父类的构造！</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/5b5f5354-78f3-4a25-bc7b-1d1749688adb"><img width="630" height="715" alt="Image" src="https://github.com/user-attachments/assets/5b5f5354-78f3-4a25-bc7b-1d1749688adb" style="max-width: 100%; height: auto; max-height: 715px;; aspect-ratio: 630 / 715; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a></p>
+<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/e23e1595-072e-4417-838c-b0a4e0a7330c"><img width="883" height="750" alt="Image" src="https://github.com/user-attachments/assets/e23e1595-072e-4417-838c-b0a4e0a7330c" style="max-width: 100%; height: auto; max-height: 750px;; aspect-ratio: 883 / 750; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a></p>
+<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/f2b7abfe-9065-4e2f-9e1f-c3d2a05bad7f"><img width="678" height="492" alt="Image" src="https://github.com/user-attachments/assets/f2b7abfe-9065-4e2f-9e1f-c3d2a05bad7f" style="max-width: 100%; height: auto; max-height: 492px;; aspect-ratio: 678 / 492; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a></p>
+<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/3e3505f0-a2be-48f9-a4c1-89efd17be639"><img width="620" height="398" alt="Image" src="https://github.com/user-attachments/assets/3e3505f0-a2be-48f9-a4c1-89efd17be639" style="max-width: 100%; height: auto; max-height: 398px;; aspect-ratio: 620 / 398; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a></p>
+<h2>重写</h2>
+<h3>前提</h3>
+<ul>
+<li><strong>需要有继承关系</strong>，子类重写父类的方法！</li>
+</ul>
+<h3>要求</h3>
+<ol>
+<li>
+<p>方法名必须相同</p>
+</li>
+<li>
+<p>参数列表必须相同</p>
+</li>
+<li>
+<p>修饰符：</p>
+<ul>
+<li>
+<p>范围：</p>
+<ul>
+<li><strong>可以扩大，但不能缩小</strong></li>
+</ul>
+</li>
+<li>
+<div class="highlight highlight-source-java"><pre class="notranslate"><span class="pl-k">public</span> &gt; <span class="pl-k">protected</span> &gt; <span class="pl-k">default</span> &gt; <span class="pl-k">private</span></pre></div>
+</li>
+</ul>
+</li>
+<li>
+<p>抛出的异常：</p>
+<ul>
+<li>
+<p>范围：</p>
+<ul>
+<li><strong>可以被缩小，但不能扩大</strong></li>
+</ul>
+</li>
+<li>
+<div class="highlight highlight-source-java"><pre class="notranslate"><span class="pl-s1">ClsssNotFoundException</span> --&gt; <span class="pl-s1">Exception</span>（<span class="pl-s1">大</span>）</pre></div>
+</li>
+</ul>
+</li>
+</ol>
+<h3>总结</h3>
+<ul>
+<li>子类的方法和父类必要一致，方法体不同！</li>
+<li><code class="notranslate">Alt + Insert : override</code>（快捷键）</li>
+</ul>
+<h4>为什么需要重写</h4>
+<ul>
+<li>父类的功能，子类不一定需要，或者不一定满足！</li>
+</ul>
+<h3>举例</h3>
+<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/e7e5f5a7-4542-4ab1-8cfb-b5cfc92c7fa9"><img width="551" height="404" alt="Image" src="https://github.com/user-attachments/assets/e7e5f5a7-4542-4ab1-8cfb-b5cfc92c7fa9" style="max-width: 100%; height: auto; max-height: 404px;; aspect-ratio: 551 / 404; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a></p>
+<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/eba880a5-d3f9-4c17-8ff2-daaaca577263"><img width="564" height="436" alt="Image" src="https://github.com/user-attachments/assets/eba880a5-d3f9-4c17-8ff2-daaaca577263" style="max-width: 100%; height: auto; max-height: 436px;; aspect-ratio: 564 / 436; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a></p>
+<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/37a3b312-9517-4192-8ead-17117ba898fd"><img width="736" height="682" alt="Image" src="https://github.com/user-attachments/assets/37a3b312-9517-4192-8ead-17117ba898fd" style="max-width: 100%; height: auto; max-height: 682px;; aspect-ratio: 736 / 682; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a></p></div>
+<div style="font-size:small;margin-top:8px;float:right;"></div>
+
+<button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
+<div class="comments" id="comments"></div>
+
+</div>
+    <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="https://hare753.github.io">长颈鹭的博客</a></div>
+<div id="footer2">
+    <span id="runday"></span><span>Powered by <a href="https://meekdai.com/Gmeek.html" target="_blank">Gmeek</a></span>
+</div>
+
+<script>
+var now=new Date();
+document.getElementById("copyrightYear").innerHTML=now.getFullYear();
+
+if(""!=""){
+    var startSite=new Date("");
+    var diff=now.getTime()-startSite.getTime();
+    var diffDay=Math.floor(diff/(1000*60*60*24));
+    document.getElementById("runday").innerHTML="网站运行 "+diffDay+" 天"+" • ";
+}
+</script></div>
+</body>
+<script>
+var IconList={'sun': 'M8 10.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5zM8 12a4 4 0 100-8 4 4 0 000 8zM8 0a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V.75A.75.75 0 018 0zm0 13a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 018 13zM2.343 2.343a.75.75 0 011.061 0l1.06 1.061a.75.75 0 01-1.06 1.06l-1.06-1.06a.75.75 0 010-1.06zm9.193 9.193a.75.75 0 011.06 0l1.061 1.06a.75.75 0 01-1.06 1.061l-1.061-1.06a.75.75 0 010-1.061zM16 8a.75.75 0 01-.75.75h-1.5a.75.75 0 010-1.5h1.5A.75.75 0 0116 8zM3 8a.75.75 0 01-.75.75H.75a.75.75 0 010-1.5h1.5A.75.75 0 013 8zm10.657-5.657a.75.75 0 010 1.061l-1.061 1.06a.75.75 0 11-1.06-1.06l1.06-1.06a.75.75 0 011.06 0zm-9.193 9.193a.75.75 0 010 1.06l-1.06 1.061a.75.75 0 11-1.061-1.06l1.06-1.061a.75.75 0 011.061 0z', 'moon': 'M9.598 1.591a.75.75 0 01.785-.175 7 7 0 11-8.967 8.967.75.75 0 01.961-.96 5.5 5.5 0 007.046-7.046.75.75 0 01.175-.786zm1.616 1.945a7 7 0 01-7.678 7.678 5.5 5.5 0 107.678-7.678z', 'sync': 'M1.705 8.005a.75.75 0 0 1 .834.656 5.5 5.5 0 0 0 9.592 2.97l-1.204-1.204a.25.25 0 0 1 .177-.427h3.646a.25.25 0 0 1 .25.25v3.646a.25.25 0 0 1-.427.177l-1.38-1.38A7.002 7.002 0 0 1 1.05 8.84a.75.75 0 0 1 .656-.834ZM8 2.5a5.487 5.487 0 0 0-4.131 1.869l1.204 1.204A.25.25 0 0 1 4.896 6H1.25A.25.25 0 0 1 1 5.75V2.104a.25.25 0 0 1 .427-.177l1.38 1.38A7.002 7.002 0 0 1 14.95 7.16a.75.75 0 0 1-1.49.178A5.5 5.5 0 0 0 8 2.5Z', 'home': 'M6.906.664a1.749 1.749 0 0 1 2.187 0l5.25 4.2c.415.332.657.835.657 1.367v7.019A1.75 1.75 0 0 1 13.25 15h-3.5a.75.75 0 0 1-.75-.75V9H7v5.25a.75.75 0 0 1-.75.75h-3.5A1.75 1.75 0 0 1 1 13.25V6.23c0-.531.242-1.034.657-1.366l5.25-4.2Zm1.25 1.171a.25.25 0 0 0-.312 0l-5.25 4.2a.25.25 0 0 0-.094.196v7.019c0 .138.112.25.25.25H5.5V8.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v5.25h2.75a.25.25 0 0 0 .25-.25V6.23a.25.25 0 0 0-.094-.195Z', 'github': 'M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z', 'copy': 'M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z', 'check': 'M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z'};
+var utterancesLoad=0;
+
+let themeSettings={
+    "dark": ["dark","moon","#00f0ff","dark-blue"],
+    "light": ["light","sun","#ff5000","github-light"],
+    "auto": ["auto","sync","","preferred-color-scheme"]
+};
+function changeTheme(mode, icon, color, utheme){
+    document.documentElement.setAttribute("data-color-mode",mode);
+    document.getElementById("themeSwitch").setAttribute("d",value=IconList[icon]);
+    document.getElementById("themeSwitch").parentNode.style.color=color;
+    if(utterancesLoad==1){utterancesTheme(utheme);}
+}
+function modeSwitch(){
+    let currentMode=document.documentElement.getAttribute('data-color-mode');
+    let newMode = currentMode === "light" ? "dark" : currentMode === "dark" ? "auto" : "light";
+    localStorage.setItem("meek_theme", newMode);
+    if(themeSettings[newMode]){
+        changeTheme(...themeSettings[newMode]);
+    }
+}
+function utterancesTheme(theme){
+    const message={type:'set-theme',theme: theme};
+    const iframe=document.getElementsByClassName('utterances-frame')[0];
+    iframe.contentWindow.postMessage(message,'https://utteranc.es');
+}
+if(themeSettings[theme]){changeTheme(...themeSettings[theme]);}
+console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n","padding:5px 0;background:#02d81d;color:#fff");
+</script>
+
+<script>
+document.getElementById("pathHome").setAttribute("d",IconList["home"]);
+document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
+
+function openComments(){
+    cm=document.getElementById("comments");
+    cmButton=document.getElementById("cmButton");
+    cmButton.disabled=true;
+    cmButton.innerHTML="loading";
+    span=document.createElement("span");
+    span.setAttribute("class","AnimatedEllipsis");
+    cmButton.appendChild(span);
+
+    script=document.createElement("script");
+    script.setAttribute("src","https://utteranc.es/client.js");
+    script.setAttribute("repo","hare753/hare753.github.io");
+    script.setAttribute("issue-term","title");
+    
+    if(localStorage.getItem("meek_theme")=="dark"){script.setAttribute("theme","dark-blue");}
+    else if(localStorage.getItem("meek_theme")=="light") {script.setAttribute("theme","github-light");}
+    else{script.setAttribute("theme","preferred-color-scheme");}
+    
+    script.setAttribute("crossorigin","anonymous");
+    script.setAttribute("async","");
+    cm.appendChild(script);
+
+    int=self.setInterval("iFrameLoading()",200);
+}
+
+function iFrameLoading(){
+    var utterances=document.getElementsByClassName('utterances');
+    if(utterances.length==1){
+        if(utterances[0].style.height!=""){
+            utterancesLoad=1;
+            int=window.clearInterval(int);
+            document.getElementById("cmButton").style.display="none";
+            console.log("utterances Load OK");
+        }
+    }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    const createClipboardHTML = (codeContent, additionalClasses = '') => `
+        <pre class="notranslate"><code class="notranslate">${codeContent}</code></pre>
+        <div class="clipboard-container position-absolute right-0 top-0 ${additionalClasses}">
+            <clipboard-copy class="ClipboardButton btn m-2 p-0" role="button" style="display: inherit;">
+                <svg height="16" width="16" class="octicon octicon-copy m-2"><path d="${IconList["copy"]}"></path></svg>
+                <svg height="16" width="16" class="octicon octicon-check color-fg-success m-2 d-none"><path d="${IconList["check"]}"></path></svg>
+            </clipboard-copy>
+            <div class="copy-feedback">Copied!</div>
+        </div>
+    `;
+
+    const handleCodeElements = (selector = '') => {
+        document.querySelectorAll(selector).forEach(codeElement => {
+            const codeContent = codeElement.innerHTML;
+            const newStructure = document.createElement('div');
+            newStructure.className = 'snippet-clipboard-content position-relative overflow-auto';
+            newStructure.innerHTML = createClipboardHTML(codeContent);
+
+            const parentElement = codeElement.parentElement;
+            if (selector.includes('highlight')) {
+                parentElement.insertBefore(newStructure, codeElement.nextSibling);
+                parentElement.removeChild(codeElement);
+            } else {
+                parentElement.parentElement.replaceChild(newStructure, parentElement);
+            }
+        });
+    };
+
+    handleCodeElements('pre.notranslate > code.notranslate');
+    handleCodeElements('div.highlight > pre.notranslate');
+
+    let currentFeedback = null;
+    document.querySelectorAll('clipboard-copy').forEach(copyButton => {
+        copyButton.addEventListener('click', () => {
+            const codeContent = copyButton.closest('.snippet-clipboard-content').innerText;
+            const tempTextArea = document.createElement('textarea');
+            tempTextArea.value = codeContent;
+            document.body.appendChild(tempTextArea);
+            tempTextArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempTextArea);
+
+            const copyIcon = copyButton.querySelector('.octicon-copy');
+            const checkIcon = copyButton.querySelector('.octicon-check');
+            const copyFeedback = copyButton.nextElementSibling;
+
+            if (currentFeedback && currentFeedback !== copyFeedback) {currentFeedback.style.display = 'none';}
+            currentFeedback = copyFeedback;
+
+            copyIcon.classList.add('d-none');
+            checkIcon.classList.remove('d-none');
+            copyFeedback.style.display = 'block';
+            copyButton.style.borderColor = 'var(--color-success-fg)';
+
+            setTimeout(() => {
+                copyIcon.classList.remove('d-none');
+                checkIcon.classList.add('d-none');
+                copyFeedback.style.display = 'none';
+                copyButton.style.borderColor = '';
+            }, 2000);
+        });
+    });
+});
+
+</script>
+
+
+</html>
