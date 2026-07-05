@@ -1,5 +1,41 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Sun, 05 Jul 2026 05:49:38 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>static关键字</title><link>https://hare753.github.io/post/static-guan-jian-zi.html</link><description># `static`关键字详解
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Sun, 05 Jul 2026 05:53:44 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>抽象类</title><link>https://hare753.github.io/post/chou-xiang-lei.html</link><description># 抽象类
+
+| 修饰目标     | 规则                                                         | 说明                                                         |
+| :----------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
+| **类**       | `abstract` 修饰 → 抽象类                                     | 1、可包含0个或多个抽象方法 &lt;br /&gt;2、不能用 `new` 实例化 &lt;br /&gt;3、设计为被继承 |
+| **方法**     | `abstract` 修饰 → 抽象方法                                   | 1、只有声明（无方法体） &lt;br /&gt;2、必须在子类中实现（除非子类也是抽象类） |
+| **相互约束** | 1、含抽象方法的类 **必须** 声明为抽象类&lt;br /&gt;2、子类继承抽象类时，**必须** 实现所有未实现的抽象方法，否则子类也需声明为 `abstract` | 确保抽象方法最终被实现                                       |
+
+
+
+## 总结
+
+1. 不能new这个抽象类，只能靠子类去实现它：约束！
+2. 抽象类中可以写普通的方法
+3. 抽象方法必须在抽象类中
+
+- 抽象的抽象：约束
+
+
+
+### 思考
+
+- 抽象类不能`new`对象，那么存在构造器么？
+  - 存在构造器
+- 存在的意义：
+  - 提高开发效率
+
+
+
+## 举例
+
+&lt;img width='820' height='680' alt='Image' src='https://github.com/user-attachments/assets/c81bbd74-bf61-4d28-afa4-1845cc2c77d0' /&gt;
+
+&lt;img width='730' height='445' alt='Image' src='https://github.com/user-attachments/assets/5c57f723-57a8-4278-8697-b9f545010142' /&gt;
+
+
+。</description><guid isPermaLink="true">https://hare753.github.io/post/chou-xiang-lei.html</guid><pubDate>Sun, 05 Jul 2026 05:53:18 +0000</pubDate></item><item><title>static关键字</title><link>https://hare753.github.io/post/static-guan-jian-zi.html</link><description># `static`关键字详解
 
 ## 修饰符
 
