@@ -1,5 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Fri, 03 Jul 2026 03:36:39 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>多态</title><link>https://hare753.github.io/post/duo-tai.html</link><description># 多态
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Sun, 05 Jul 2026 05:49:38 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>static关键字</title><link>https://hare753.github.io/post/static-guan-jian-zi.html</link><description># `static`关键字详解
+
+## 修饰符
+
+- 静态变量
+- 静态方法
+
+&lt;img width='640' height='927' alt='Image' src='https://github.com/user-attachments/assets/353bd41a-40d7-42cf-b2cc-bdd6bbdac5d1' /&gt;
+
+
+
+### 静态代码块
+
+- ==***只执行一次***==
+
+&lt;img width='618' height='891' alt='Image' src='https://github.com/user-attachments/assets/8a8a48f6-8345-4c95-8505-7889ec7bf633' /&gt;
+
+
+
+### ==静态导入包（拓展）==
+
+&lt;img width='614' height='467' alt='Image' src='https://github.com/user-attachments/assets/786204a8-8ce0-4b62-b1a3-b65751d16e64' /&gt;
+
+
+
+。</description><guid isPermaLink="true">https://hare753.github.io/post/static-guan-jian-zi.html</guid><pubDate>Sun, 05 Jul 2026 05:49:11 +0000</pubDate></item><item><title>多态</title><link>https://hare753.github.io/post/duo-tai.html</link><description># 多态
 
 - 动态编译：
   - 类型：
