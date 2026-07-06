@@ -1,5 +1,59 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Mon, 06 Jul 2026 06:27:07 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>接口</title><link>https://hare753.github.io/post/jie-kou.html</link><description># 接口
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Mon, 06 Jul 2026 06:35:05 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>内部类</title><link>https://hare753.github.io/post/nei-bu-lei.html</link><description># 内部类
+
+- 内部类就是在一个类的内部在定义一个类
+  - 比如，A类中定义一个B类
+    - 那么B类相对A类来说就称为内部类
+    - 而A类相对B类来说就是外部类了
+
+
+
+## 分类
+
+1. 成员内部类
+
+2. 静态内部类
+
+3. 局部内部类
+
+4. 匿名内部类
+
+
+
+## 举例
+
+- 成员内部类
+
+&lt;img width='685' height='818' alt='Image' src='https://github.com/user-attachments/assets/f90df574-69c1-4b9e-baf7-83443ce4483a' /&gt;
+
+&lt;img width='649' height='405' alt='Image' src='https://github.com/user-attachments/assets/d617786a-7ee2-457e-8243-130d4b05f8b0' /&gt;
+
+
+
+- 局部内部类
+
+&lt;img width='481' height='684' alt='Image' src='https://github.com/user-attachments/assets/1663b196-0434-44ec-8a03-0fcea1f705d5' /&gt;
+
+
+
+- 匿名内部类
+
+&lt;img width='484' height='464' alt='Image' src='https://github.com/user-attachments/assets/1f23678d-f566-4332-9b9f-9f089e6a3054' /&gt;
+
+&lt;img width='721' height='646' alt='Image' src='https://github.com/user-attachments/assets/78433e1e-d274-483e-9502-6b1fdc3219ab' /&gt;
+
+
+
+- 注：
+
+&lt;img width='723' height='402' alt='Image' src='https://github.com/user-attachments/assets/cb660585-333b-4d71-bcc5-1f365d1ab00b' /&gt;
+
+
+
+
+
+
+。</description><guid isPermaLink="true">https://hare753.github.io/post/nei-bu-lei.html</guid><pubDate>Mon, 06 Jul 2026 06:34:38 +0000</pubDate></item><item><title>接口</title><link>https://hare753.github.io/post/jie-kou.html</link><description># 接口
 
 
 
