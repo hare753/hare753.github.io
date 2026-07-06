@@ -1,5 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Sun, 05 Jul 2026 05:53:44 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>抽象类</title><link>https://hare753.github.io/post/chou-xiang-lei.html</link><description># 抽象类
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>长颈鹭的博客</title><link>https://hare753.github.io</link><description>我是长颈鹭，狂野震撼亚洲</description><copyright>长颈鹭的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/154416633?v=4&amp;size=64</url><title>avatar</title><link>https://hare753.github.io</link></image><lastBuildDate>Mon, 06 Jul 2026 06:27:07 +0000</lastBuildDate><managingEditor>长颈鹭的博客</managingEditor><ttl>60</ttl><webMaster>长颈鹭的博客</webMaster><item><title>接口</title><link>https://hare753.github.io/post/jie-kou.html</link><description># 接口
+
+
+
+
+
+| 类型   | 具体实现 | 规范（抽象方法） |
+| :----- | :------- | :--------------- |
+| 普通类 | ✅ 有     | ❌ 无             |
+| 抽象类 | ✅ 有     | ✅ 有             |
+| 接口   | ❌ 无     | ✅ 有（仅规范）   |
+
+- ==***注：声明类的关键字是`class`，声明接口的关键字是`interface`***==
+- 接口自己无法写方法
+  - 专业的约束
+    - 约束和实现分离：
+      - 面向接口编程
+- 接口就是规范，定义的是一组规则
+  - 体现了现实世界中“如果你是...则必须能...”的思想
+    - 如果你是天使，则必须能飞。</description><guid isPermaLink="true">https://hare753.github.io/post/jie-kou.html</guid><pubDate>Mon, 06 Jul 2026 06:26:38 +0000</pubDate></item><item><title>抽象类</title><link>https://hare753.github.io/post/chou-xiang-lei.html</link><description># 抽象类
 
 | 修饰目标     | 规则                                                         | 说明                                                         |
 | :----------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
